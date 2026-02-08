@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pamätný kameň Karlovi Krylovi · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        
+        <img src="https://umeniemesta.sk/storage/media/1224/PNoSSPXxTQQJclB0lab4M08MnnXpkimUHxXAEa09tZY.jpeg" alt="Pamätný kameň Karlovi Krylovi" />
+        
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Pamätný kameň Karlovi Krylovi</h1>
+        <div class="tag">Monument</div>
+        
+          <p class="lead">El Pamätný kameň Karlovi Krylovi és un monument commemoratiu dedicat a Karel Kryl, un cantautor i poeta txec molt influent, conegut per les seves cançons de protesta contra el règim comunista durant la segona meitat del segle XX.<br><br>Kryl es va convertir en un símbol de la lluita per la llibertat d’expressió i els drets civils a Txecoslovàquia, especialment després de la invasió soviètica del 1968. Les seves lletres, sovint crítiques amb el sistema polític, van tenir un gran impacte cultural i social a la regió.<br><br>El monument consisteix en una pedra commemorativa senzilla però simbòlica que recorda la seva figura i la seva relació amb Bratislava i la història compartida entre txecs i eslovacs. És un espai de memòria cultural que posa en valor la música i la poesia com a formes de resistència política.<br><br>Tot i ser un punt menys conegut turísticament, el memorial ofereix una oportunitat per descobrir una part important de la història contemporània d’Europa Central i reflexionar sobre el paper de l’art en els processos socials i polítics.</p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=6318595054543976759" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.15252, 17.11094], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.15252, 17.11094]).addTo(miniMap).bindPopup("Pamätný kameň Karlovi Krylovi");
+</script>
+
+  </body>
+</html>

@@ -13,7 +13,12 @@
 <div id="grid-view" class="card-grid">
       {% for item in items %}
 <article class="card item-card">
+<div class="card-image-container">
+{% if item.number %}
+<div class="number-badge">{{ item.number }}</div>
+{% endif %}
 <img src="{{ item.images[0] if item.images else base_prefix + 'static/images/placeholder.svg' }}" alt="{{ item.name }}" />
+</div>
 <div class="card-body">
 <div class="tag">{{ item.category }}</div>
 <h3>{{ item.name }}</h3>
@@ -30,7 +35,14 @@
 <article class="list-item">
         {% if item.images %}
 <div class="list-item-image">
+{% if item.number %}
+<div class="list-item-image-with-badge">
+<div class="number-badge">{{ item.number }}</div>
 <img src="{{ item.images[0] }}" alt="{{ item.name }}" />
+</div>
+{% else %}
+<img src="{{ item.images[0] }}" alt="{{ item.name }}" />
+{% endif %}
 </div>
         {% endif %}
 <div class="list-item-content">

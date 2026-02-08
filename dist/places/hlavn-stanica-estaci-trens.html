@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hlavná stanica (Estació trens) · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        
+        <div class="hero-image-with-badge">
+          <div class="number-badge">23</div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bratislava_hlavn%C3%A1_stanica_September_2019.jpg/1280px-Bratislava_hlavn%C3%A1_stanica_September_2019.jpg" alt="Hlavná stanica (Estació trens)" />
+        </div>
+        
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Hlavná stanica (Estació trens)</h1>
+        <div class="tag">Estació</div>
+        
+          <p class="lead">L’estació central de trens de Bratislava, coneguda com Hlavná stanica, és el principal centre ferroviari de la ciutat. Construïda originalment al segle XIX, ha estat ampliada i renovada diverses vegades per adaptar-se al creixement del transport ferroviari.<br><br>L’estació connecta Bratislava amb ciutats importants d’Europa Central com Viena, Budapest o Praga, fet que la converteix en un punt estratègic per als viatgers internacionals.<br><br>Tot i que l’edifici actual combina elements històrics amb reformes modernes, conserva la seva funció essencial com a porta d’entrada a la ciutat per a molts visitants.<br><br>La seva ubicació permet accedir fàcilment al centre històric mitjançant transport públic o taxi, i és un punt habitual d’inici per a excursions regionals.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=9801502718226731331" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1581078, 17.1071739], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1581078, 17.1071739]).addTo(miniMap).bindPopup("Hlavná stanica (Estació trens)");
+</script>
+
+  </body>
+</html>

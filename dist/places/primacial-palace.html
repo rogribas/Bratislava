@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Primacial Palace · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        
+        <div class="hero-image-with-badge">
+          <div class="number-badge">6</div>
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/11/85/91/primacialny-palac.jpg?w=900&amp;h=500&amp;s=1" alt="Primacial Palace" />
+        </div>
+        
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Primacial Palace</h1>
+        <div class="tag">Palau</div>
+        
+          <p class="lead">El Palau Primacial és un magnífic edifici neoclàssic construït a finals del segle XVIII i un dels monuments històrics més importants de Bratislava. Va ser la residència dels arquebisbes d’Esztergom.<br><br>El palau és conegut perquè l’any 1805 s’hi va signar la Pau de Pressburg després de la batalla d’Austerlitz.<br><br>L’interior destaca per les seves sales elegants i una col·lecció única de tapissos anglesos del segle XVII.<br><br>Actualment, el palau també acull institucions municipals i és un punt destacat del centre històric.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=2553111428876251535" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.14391, 17.10965], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.14391, 17.10965]).addTo(miniMap).bindPopup("Primacial Palace");
+</script>
+
+  </body>
+</html>

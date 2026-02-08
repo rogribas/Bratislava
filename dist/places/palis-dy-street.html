@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Palisády Street · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Bratislava_-_Palis%C3%A1dy_-_View_WNW.jpg" alt="Palisády Street" />
+        
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Palisády Street</h1>
+        <div class="tag">Carrer</div>
+        
+          <p class="lead">El carrer Palisády és un dels carrers més elegants i tranquils de Bratislava, situat als vessants del turó del Castell. Aquest carrer destaca per la seva arquitectura residencial històrica, amb edificis senyorials, ambaixades i institucions culturals.<br><br>Passejar per Palisády permet descobrir una cara més relaxada de la ciutat, lluny de l’activitat intensa del centre turístic. El carrer està envoltat de zones verdes i ofereix boniques vistes cap a la ciutat i el riu Danubi.<br><br>Històricament, aquesta zona ha estat associada amb les classes acomodades i amb el desenvolupament urbà del segle XIX i principis del XX. Molts edificis mostren influències arquitectòniques neoclàssiques i modernistes.<br><br>És un lloc perfecte per fer una caminada tranquil·la mentre s’explora la transició entre el centre històric i les zones residencials més exclusives de Bratislava.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.app.goo.gl/7jL993rm6aEMua5i7" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.14609656666667, 17.0999814], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.14609656666667, 17.0999814]).addTo(miniMap).bindPopup("Palisády Street");
+</script>
+
+  </body>
+</html>

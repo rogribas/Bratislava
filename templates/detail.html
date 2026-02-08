@@ -6,9 +6,23 @@
     
     <div class="hero-image">
       {% if item.images %}
+        {% if item.number %}
+        <div class="hero-image-with-badge">
+          <div class="number-badge">{{ item.number }}</div>
+          <img src="{{ item.images[0] }}" alt="{{ item.name }}" />
+        </div>
+        {% else %}
         <img src="{{ item.images[0] }}" alt="{{ item.name }}" />
+        {% endif %}
       {% else %}
+        {% if item.number %}
+        <div class="hero-image-with-badge">
+          <div class="number-badge">{{ item.number }}</div>
+          <img src="{{ base_prefix }}static/images/placeholder.svg" alt="Imatge de mostra" />
+        </div>
+        {% else %}
         <img src="{{ base_prefix }}static/images/placeholder.svg" alt="Imatge de mostra" />
+        {% endif %}
       {% endif %}
     </div>
 

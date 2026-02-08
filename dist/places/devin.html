@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Castell de Devín · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        
+        <div class="hero-image-with-badge">
+          <div class="number-badge">24</div>
+          <img src="https://www.travelbreatherepeat.com/wp-content/uploads/2018/12/Devin_Castle_3.jpeg" alt="Castell de Devín" />
+        </div>
+        
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Castell de Devín</h1>
+        <div class="tag">Castell</div>
+        
+          <p class="lead">El Castell de Devín és una de les fortaleses històriques més importants d’Eslovàquia i un dels símbols nacionals del país. Situat sobre un penya-segat estratègic a la confluència dels rius Danubi i Morava, el castell ha tingut una funció defensiva clau al llarg dels segles.<br><br>Els seus orígens es remunten a l’època romana, però el castell medieval es va desenvolupar principalment entre els segles IX i XV, quan formava part del sistema defensiu de la Gran Moràvia i posteriorment del Regne d’Hongria.<br><br>Durant les guerres napoleòniques, l’any 1809, el castell va ser destruït parcialment per les tropes de Napoleó i des de llavors es conserva com a ruïna històrica. Avui dia és un lloc molt visitat que ofereix unes vistes espectaculars dels rius i dels paisatges fronterers entre Eslovàquia i Àustria.<br><br>El recinte inclou restes de muralles, torres defensives i espais arqueològics, així com exposicions que expliquen la història militar i cultural del lloc. És també un punt popular per fer excursions i gaudir de la natura dels voltants.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=9244648098414736306" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.17389, 16.97811], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.17389, 16.97811]).addTo(miniMap).bindPopup("Castell de Devín");
+</script>
+
+  </body>
+</html>

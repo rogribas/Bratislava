@@ -1,4 +1,4 @@
-
+museums:
 - id: bratislava-city-museum
   name: Bratislava City Museum
   zone: Bratislava
@@ -93,4 +93,4 @@
   google_maps: https://www.google.com/maps?cid=4343557402027498519
   images:
   - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/20/e5/77/johann-nepomuk-hummel.jpg?w=900&h=500&s=1
-  short_description: Horari: de 11:00 a 18:00, dilluns tancat. Museu dedicat al compositor i pianista Johann Nepomuk Hummel, que mostra objectes personals, partitures, instruments i informació sobre la seva vida i la seva influència en la música clàssica europea.
+  short_description: Horari de 11:00 a 18:00, dilluns tancat. Museu dedicat al compositor i pianista Johann Nepomuk Hummel, que mostra objectes personals, partitures, instruments i informació sobre la seva vida i la seva influència en la música clàssica europea.
