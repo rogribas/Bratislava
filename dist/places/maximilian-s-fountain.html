@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Maximilian&#39;s fountain · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/48/4b/3c/maximilian-s-fountain.jpg?w=900&amp;h=500&amp;s=1" alt="Maximilian&#39;s fountain" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Maximilian&#39;s fountain</h1>
+        <div class="tag">Estàtua</div>
+        
+          <p class="lead">La Font de Maximilià, també coneguda com la Font de Roland, és un dels monuments més antics i importants de la Plaça Principal. Va ser construïda l’any 1572 per celebrar la coronació del rei Maximilià II d’Hongria.<br><br>La font representa un cavaller amb armadura que simbolitza la protecció de la ciutat i els privilegis municipals concedits durant aquella època. És un element central de la plaça i un punt de trobada habitual tant per locals com per turistes.<br><br>Al llarg dels segles, la font ha estat testimoni de celebracions, mercats i esdeveniments històrics importants. Actualment, continua sent un símbol del passat medieval i renaixentista de Bratislava.<br><br>El seu entorn ple d’edificis històrics i terrasses de restaurants crea una atmosfera molt pintoresca, especialment durant les festivitats i mercats nadalencs.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=15576979326475654533" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1433702, 17.1081634], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1433702, 17.1081634]).addTo(miniMap).bindPopup("Maximilian&#39;s fountain");
+</script>
+
+  </body>
+</html>

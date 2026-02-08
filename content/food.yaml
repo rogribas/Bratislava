@@ -1,0 +1,127 @@
+food_drink:
+- id: urban-house
+  name: Urban House
+  category: Cafe & Brunch
+  zone: Old Town
+  description: Cozy cafe with specialty coffee and hearty brunch.
+  notes:
+  - Try the ricotta pancakes.
+  - Good for a relaxed morning.
+  coordinates:
+  - 48.1445
+  - 17.1112
+  images:
+  - static/images/food/urbanhouse-1.svg
+  - static/images/food/urbanhouse-2.svg
+- id: bratislavsky-mestiansky
+  name: Bratislavský Meštiansky Pivovar
+  category: Brewery & Slovak Food
+  zone: Old Town
+  description: Traditional dishes and house-brewed beers.
+  notes:
+  - Order bryndzové halušky.
+  - Reservation recommended after 6 PM.
+  coordinates:
+  - 48.1442
+  - 17.1061
+  images:
+  - static/images/food/pivovar-1.svg
+  - static/images/food/pivovar-2.svg
+- id: flag-ship
+  name: Flag Ship
+  category: Slovak Restaurant
+  zone: City Center
+  description: Large, lively restaurant with classic Slovak cuisine.
+  notes:
+  - Great for groups.
+  - Ask about seasonal specials.
+  coordinates:
+  - 48.149
+  - 17.1102
+  images:
+  - static/images/food/flagship-1.svg
+  - static/images/food/flagship-2.svg
+- id: roxors
+  name: Roxor Burgers
+  category: Casual Eats
+  zone: Old Town
+  description: Friendly burger spot with a local twist.
+  notes:
+  - Quick service.
+  - Vegetarian option available.
+  coordinates:
+  - 48.1439
+  - 17.1118
+  images:
+  - static/images/food/roxor-1.svg
+  - static/images/food/roxor-2.svg
+- id: slovak-pub
+  name: Slovak Pub
+  category: Traditional Pub
+  zone: Old Town
+  description: Rustic tavern known for value and hearty portions.
+  notes:
+  - Cash preferred.
+  - Try the soup of the day.
+  coordinates:
+  - 48.1483824
+  - 17.1123815
+  images:
+  - static/images/food/slovakpub-1.svg
+  - static/images/food/slovakpub-2.svg
+  google_maps: https://www.google.com/maps?q=48.1483824,17.1123815
+- id: musafer-fast-food
+  name: Musafer FAST FOOD
+  zone: Bratislava
+  category: Fast Food
+  coordinates:
+  - 48.1583847
+  - 17.127872
+  google_maps: https://www.google.com/maps?q=48.1583847,17.127872
+  images: []
+  description: Food & drink spot in Bratislava.
+  notes: []
+- id: zylinder-cafe-restaurant
+  name: Zylinder Cafe Restaurant
+  zone: Bratislava
+  category: Cafe
+  coordinates:
+  - 48.1418955
+  - 17.1078094
+  google_maps: https://www.google.com/maps?q=48.1418955,17.1078094
+  images: []
+  description: Food & drink spot in Bratislava.
+  notes: []
+- id: il-verne-craftbeer-pub
+  name: Žil Verne craftbeer pub
+  zone: Bratislava
+  category: Pub
+  coordinates:
+  - 48.1424739
+  - 17.1078551
+  google_maps: https://www.google.com/maps?q=48.1424739,17.1078551
+  images: []
+  description: Food & drink spot in Bratislava.
+  notes: []
+- id: cafe-next-apache
+  name: Cafe Next Apache
+  zone: Bratislava
+  category: Cafe
+  coordinates:
+  - 48.1479786
+  - 17.1050194
+  google_maps: https://www.google.com/maps?q=48.1479786,17.1050194
+  images: []
+  description: Food & drink spot in Bratislava.
+  notes: []
+- id: axioma-cafe
+  name: Axioma Cafe
+  zone: Bratislava
+  category: Cafe
+  coordinates:
+  - 48.147459
+  - 17.1175433
+  google_maps: https://www.google.com/maps?q=48.147459,17.1175433
+  images: []
+  description: Food & drink spot in Bratislava.
+  notes: []

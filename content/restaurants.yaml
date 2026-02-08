@@ -1,0 +1,95 @@
+restaurants:
+- id: roxor
+  name: Roxor
+  zone: Bratislava
+  category: Lloc d'interès
+  coordinates:
+  - 48.1575931
+  - 17.1174266
+  google_maps: https://maps.google.com/?cid=6385728688759524695
+  images:
+  - https://mini-adventures.com/wp-content/uploads/2019/03/roxor-burgers-bratislava-2.jpg
+  description: Hamburgueseria local amb bona reputació.
+- id: musafer-fast-food
+  name: Musafer FAST FOOD
+  zone: Bratislava
+  category: Restaurant
+  coordinates:
+  - 48.1583847
+  - 17.127872
+  google_maps: https://maps.google.com/?cid=17986433871571877096
+  images:
+  - https://d2kihw5e8drjh5.cloudfront.net/eyJidWNrZXQiOiJ1dGEtaW1hZ2VzIiwia2V5IjoicGxhY2VfaW1nL2NndTZjSjZ6U1Y2M05jWFI0M1pMN2ciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY0MCwiaGVpZ2h0Ijo2NDAsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsInRvRm9ybWF0IjogIndlYnAifX0=
+  description: Menjar ràpid i senzill, ideal si vas amb pressa.
+- id: bratislava-flagship
+  name: Bratislava Flagship
+  zone: Bratislava
+  category: Restaurant
+  coordinates:
+  - 48.1461397
+  - 17.1102885
+  google_maps: https://maps.google.com/?cid=70246520051582656
+  images:
+  - https://assetscdn.uzivajsislovensko.sk/media/uploads/asset/79585/huge_2.jpg?v=ebbcc925c995bd587dfd3bb4c96ae1ba
+  description: Restaurant gran amb cuina eslovaca clàssica.
+  notes: []
+- id: re-taur-cia-divn-janko
+  name: Reštaurácia Divný Janko
+  zone: Bratislava
+  category: Restaurant
+  coordinates:
+  - 48.1509769
+  - 17.109808
+  google_maps: https://maps.google.com/?cid=4361882066417182986
+  images:
+  - https://www.startitup.sk/wp-content/uploads/2022/12/do.jpg
+  description: Cuina tradicional en un ambient acollidor.
+  notes: []
+- id: zylinder-cafe-restaurant
+  name: Zylinder Cafe Restaurant
+  zone: Bratislava
+  category: Restaurant
+  coordinates:
+  - 48.1418955
+  - 17.1078094
+  google_maps: https://maps.google.com/?cid=10269192072564929567
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ee/44/84/zylinder-cafe-restaurant.jpg?w=900&h=500&s=1
+  description: Cuina centreuropea i sala clàssica.
+  notes: []
+- id: gatto-matto-pansk
+  name: Gatto Matto Panská
+  zone: Bratislava
+  category: Restaurant
+  coordinates:
+  - 48.142329
+  - 17.107469
+  google_maps: https://maps.google.com/?cid=13061129461552138072
+  images:
+  - https://d34-a.sdn.cz/d_34/c_img_oY_A/kBkJRwehYDlimk87DAnB5e/84de.mpo?fl=res,400,225,3
+  description: Italià informal amb opcions per compartir.
+  notes: []
+- id: quinsboro
+  name: Quinsboro
+  zone: Bratislava
+  category: Restaurant
+  coordinates:
+  - 48.1478903
+  - 17.111368
+  google_maps: https://maps.google.com/?cid=4321236255589217210
+  images:
+  - https://www.startitup.sk/wp-content/uploads/2020/08/quinsboro-1.jpg
+  description: Opcions americanes i modernes.
+  notes: []
+- id: tef-nka-by-pulitzer
+  name: Štefánka by Pulitzer
+  zone: Bratislava
+  category: Restaurant
+  coordinates:
+  - 48.1487649
+  - 17.1067239
+  google_maps: https://maps.google.com/?cid=15700442198240474937
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/4f/b6/0f/restauracia-restaurant.jpg?w=900&h=500&s=1
+  description: Restaurant clàssic amb plats locals.
+  notes: []

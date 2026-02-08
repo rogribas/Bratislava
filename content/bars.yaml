@@ -1,0 +1,193 @@
+bars:
+- id: k-ce-ko
+  name: Kácečko
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1452044
+  - 17.1149285
+  google_maps: https://maps.google.com/?cid=11537681689568819950
+  images:
+  - https://dam.nmhmedia.sk/image/e855ee1d-53d1-4dd5-9256-0e4168a5d4da_phpmidpej.jpg/1200/630
+  short_description: Lloc destacat a Bratislava.
+  description: Bar popular amb ambient relaxat.
+- id: sun-deck
+  name: Sun Deck
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1371175
+  - 17.1155794
+  google_maps: https://maps.google.com/?cid=5066885620202511462
+  images:
+  - https://images.trvl-media.com/lodging/89000000/88390000/88381100/88381029/e16fe8c1.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill
+  short_description: Lloc destacat a Bratislava.
+  description: Bar a l’aire lliure per a la posta de sol.
+- id: pink-whale
+  name: Pink Whale
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1395151
+  - 17.0996445
+  google_maps: https://maps.google.com/?cid=3484109104620617096
+  images:
+  - https://mobil.citylife.sk/sites/default/files/styles/perex_miesto/public/miesto/perex/CITYLIFE/202211/whatsapp_image_2022-10-20_at_1.05.26_pm.jpeg?itok=P-LVWa3c
+  short_description: Lloc destacat a Bratislava.
+  description: Bar flotant al Danubi amb vistes.
+- id: the-peach
+  name: The Peach
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1482805
+  - 17.1148129
+  google_maps: https://maps.google.com/?cid=2568481957786092324
+  images:
+  - https://i0.wp.com/theeuropeanbarguide.com/wp-content/uploads/2023/06/wp-1686591445877.jpg?resize=492%2C656&ssl=1
+  short_description: Lloc destacat a Bratislava.
+  description: Bar de copes per a la tarda.
+- id: uisce-beatha
+  name: Uisce Beatha
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1442932
+  - 17.104916
+  google_maps: https://maps.google.com/?cid=5910905163140102887
+  images:
+  - https://media.evendo.com/locations-resized/BarImages/360x263/9b89f6b6-eacd-45d9-b2bd-54884d9c19a9
+  short_description: Lloc destacat a Bratislava.
+  description: Whisky bar clàssic.
+- id: the-half-blind-pig
+  name: The Half Blind Pig
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1448741
+  - 17.1061875
+  google_maps: https://maps.google.com/?cid=8796204954658294524
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/8e/bb/13/caption.jpg?w=900&h=500&s=1
+  short_description: Lloc destacat a Bratislava.
+  description: Cocktail bar estil speakeasy.
+- id: bukowski-bar
+  name: Bukowski Bar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.144264
+  - 17.1123089
+  google_maps: https://maps.google.com/?cid=14584862296378174562
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBnG-xJiH7zDXBHQ0apR91TESji1Y3X0UEw&s
+  description: Bar literari amb bon ambient.
+  notes: []
+- id: slovak-pub
+  name: Slovak Pub
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1483824
+  - 17.1123815
+  google_maps: https://maps.google.com/?cid=1324594135811329740
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2015/05/slovak_pub6-800x533.jpg
+  description: Pub tradicional amb plats locals.
+  notes: []
+- id: 100-p-v-craft-beer-bar-shop
+  name: 100 pív craft beer bar & shop
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1423466
+  - 17.1126622
+  google_maps: https://maps.google.com/?cid=6474560713674694295
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/2a/c4/46/great-pub.jpg?w=900&h=500&s=1
+  description: Cerveses artesanes i botiga.
+  notes: []
+- id: il-verne-craftbeer-pub
+  name: Žil Verne craftbeer pub
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1424739
+  - 17.1078551
+  google_maps: https://maps.google.com/?cid=8093268829543576610
+  images:
+  - https://media-cdn.tripadvisor.com/media/photo-s/11/b2/9e/54/zil-verne.jpg
+  description: Pub de cerveses artesanes.
+  notes: []
+- id: baudelaire-bar
+  name: Baudelaire Bar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1426488
+  - 17.1079849
+  google_maps: https://maps.google.com/?cid=8875197736743755086
+  images:
+  - https://media-cdn.tripadvisor.com/media/photo-s/17/ff/ae/9b/interior-designed-by.jpg
+  description: Bar íntim al centre històric.
+  notes: []
+- id: boh-ma-bar
+  name: Bohéma Bar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1449591
+  - 17.1143244
+  google_maps: https://maps.google.com/?cid=2621324457099246207
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f4/ce/b6/bar-interior.jpg?w=900&h=500&s=1
+  description: Bar amb còctels clàssics.
+  notes: []
+- id: bratislavsk-me-tiansky-pivovar
+  name: Bratislavský Meštiansky Pivovar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1459197
+  - 17.1177104
+  google_maps: https://maps.google.com/?cid=10989671105412419099
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d7/c5/61/bratislavsky-mestiansky.jpg?w=900&h=500&s=1
+  description: Cerveseria i cuina local.
+  notes: []
+- id: me-tiansky-pivovar
+  name: Meštiansky pivovar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.146978
+  - 17.1081552
+  google_maps: https://maps.google.com/?cid=7945825560663754261
+  images:
+  - https://cdn-media.choiceqr.com/prod-eat-mestianskypivovar/thumbnail_OamPE-xWPFY-iGLIz.jpeg
+  description: Cerveseria tradicional.
+  notes: []
+- id: v-ap-u-ern-ho
+  name: Výčap u Ernőho
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1448406
+  - 17.1112801
+  google_maps: https://maps.google.com/?cid=1606247418582141300
+  images:
+  - https://images.happycow.net/venues/1024/41/63/hcmp416310_3335587.jpeg
+  description: Cerveses locals amb ambient proper.
+  notes: []
+- id: kgb-pub
+  name: KGB Pub
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1480586
+  - 17.1117081
+  google_maps: https://maps.google.com/?cid=2197166450794309087
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/2c/df/d9/kgb-pub.jpg?w=1000&h=1000&s=1
+  description: Bar temàtic amb decoració curiosa.
+  notes: []

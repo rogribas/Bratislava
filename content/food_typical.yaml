@@ -1,0 +1,75 @@
+typical_food:
+  - name: Bryndzové halušky
+    type: Plat principal
+    description: El Bryndzové halušky és una massa amb formatge d'ovella que ha esdevingut un dels plats nacionals a Eslovàquia. Aquest menjar consisteix en haluixkes i bryndza, opcionalment esquitxat amb trossos de greix de porc fumat o cansalada. Tradicionalment es beu Žinčica amb aquest menjar.
+    image_url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Bryndzov%C3%A9_halu%C5%A1ky.jpg
+
+  - name: Strapačky
+    type: Plat principal
+    description: Variant dels halušky preparada amb xucrut i cansalada en lloc de formatge d’ovella. És un dels plats tradicionals més populars de la cuina eslovaca.
+    image_url: https://image.smedata.sk/image/w1200-h630/1eecb81c-b57d-6aa6-ad5c-298b66cc211b.jpg
+
+  - name: Kapustnica
+    type: Sopa
+    description: És una sopa espessa eslovaca. Es prepara a partir de xucrut fermentat, per la qual cosa el plat rep aquest nom (kapusta significa col en eslovac).
+    image_url: https://bratislavafoodtours.com/wp-content/uploads/2016/07/kapustnica_varecha.sk_2.jpg
+
+  - name: Demikát
+    type: Sopa
+    description: Sopa tradicional espessa preparada amb bryndza (formatge d’ovella), patates, all i espècies. És típica de regions muntanyoses d’Eslovàquia.
+    image_url: https://img.aktuality.sk/foto/MjJ4MjYwOjMxODZ4MjA0MC85MjB4NTE4L3NtYXJ0L2ltZw==/1K3uADIUBo0u9WcMeCmr.jpg?st=xyEukK7nIq2mUHFcDweC9r2lTyHScGA7BnOR_c_kpQ8&ts=1735903753&e=0
+
+  - name: Vyprážaný syr
+    type: Plat principal
+    description: El vyprážaný syr és un plat popular que es prepara fregint una llesca de formatge arrebossada, generalment d’edam o emmental, amb un gruix aproximat d’1,5 cm. Normalment se serveix amb patates (fregides o bullides), amb amanida o col llombarda, i habitualment amb salsa tàrtara o quètxup.
+    image_url: https://pecene-varene.sk/wp-content/uploads/2016/04/IMGP3921-2-e1461963833694.jpg
+
+  - name: Goulash eslovac
+    type: Plat principal
+    description: Estofat contundent de carn amb paprika i pa.
+    image_url: https://kotlik.es/wp-content/uploads/2021/07/gulash-tradicional.png
+
+  - name: Segedínsky guláš
+    type: Plat principal
+    description: Variant del goulash elaborada amb carn de porc, xucrut i una salsa cremosa. Se sol servir amb knedlíky (rodanxes de pa bullit).
+    image_url: https://www.gasparikmasovyroba.sk/wp-content/uploads/2024/10/recept-segedinsky-gulas-1024x683.webp
+
+  - name: Pečené koleno
+    type: Plat principal
+    description: Genoll de porc rostit lentament fins a quedar molt tendre. Se serveix habitualment amb mostassa, rave picant i pa.
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS09-FFggVkD3XG1pBqV21WoCL-ZOumtRKNbw&s
+
+  - name: Oštiepok
+    type: Aperitiu
+    description: Formatge tradicional d’ovella fumat. Sovint es serveix a la graella o fred, acompanyat de salsa de nabius.
+    image_url: https://www.syrexshop.sk/data/tovar/originalny-ovci-ostiepok-uden-okruhly_1638953294.jpg
+
+  - name: Trdelník
+    type: Dolç
+    description: Pasta dolça enrotllada, rostida i ensucrada.
+    image_url: https://i.pinimg.com/736x/ef/8b/1f/ef8b1fbef9fcb4939f9f75b912d54151.jpg
+
+  - name: Šúľance
+    type: Dolç
+    description: Dumplings dolços de patata que es serveixen amb rosella, sucre, mantega o nous. És una postra tradicional casolana.
+    image_url: https://img.aktuality.sk/foto/MHgyODk6NTQ4MngzMzY5L2ZpdC1pbi8xNTYweDg3OC9pbWc=/gjmMQVO2Q6uwVmy_2PHuUA.jpg?st=dx2lBY9jdRDk0O1SDrel6qGXjnvvRugrpIt4M41Gqho&ts=1531738202&e=0
+
+  - name: Kofola
+    type: Beguda
+    description: Refresc local d'herbes, semblant a la cola.
+    image_url: https://www.kofola.cz/kofolafiles/posts/November2020/R95cr8f5V9KlcXdryxvy-list.jpg
+
+  - name: Slivovica
+    type: Beguda
+    description: Aiguardent de pruna tradicional.
+    image_url: https://images-svetnapojov-cdn.rshop.sk/gallery-big/products/4975aa8105d6f016da9c86b1b83cd97f.png
+
+  - name: Borovička
+    type: Beguda
+    description: Aiguardent tradicional elaborat amb ginebró, molt popular a Eslovàquia.
+    image_url: https://www.cwwsc.net/images/cwwsc2022/9628_220103110816.jpg
+
+  - name: Vi dels Carpats Petits
+    type: Beguda
+    description: Vins produïts a la regió vinícola dels Carpats Petits, prop de Bratislava, amb una llarga tradició local.
+    image_url: https://www.visitbratislava.com/wp-content/uploads/2018/01/narodny-salon-vin-degustacia-vin-1-800x533.jpg

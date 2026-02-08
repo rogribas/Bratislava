@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bratislava Castle · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Places</a>
+          <a href="../food/index.html">Food & Drink</a>
+          <a href="../nightlife/index.html">Nightlife</a>
+          <a href="../schedule.html">Schedule</a>
+          <a href="../map.html">Map</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Back to Places of Interest</a>
+    <div class="detail-hero">
+      <div>
+        <h1>Bratislava Castle</h1>
+        <div class="tag">Landmark</div>
+        <p class="lead">Iconic hilltop castle with panoramic views of the Danube.</p>
+        <ul class="meta">
+          <li><strong>Zone:</strong> Castle Hill</li>
+          
+          <li><strong>Recommended time:</strong> 1.5–2 hours</li>
+          
+        </ul>
+        
+        <div class="card">
+          <h3>Curiosities</h3>
+          <ul class="list">
+            
+            <li>The castle has been rebuilt multiple times, most recently after a 19th-century fire.</li>
+            
+            <li>On clear days, you can see Austria and Hungary from the terrace.</li>
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+      <div class="mini-map" id="mini-map"></div>
+    </div>
+
+    <div class="gallery">
+      
+        
+        <img src="../static/images/places/castle-1.svg" alt="Bratislava Castle photo 1" />
+        
+        <img src="../static/images/places/castle-2.svg" alt="Bratislava Castle photo 2" />
+        
+      
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Built with a simple Python static site generator.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1423, 17.1004], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1423, 17.1004]).addTo(miniMap).bindPopup("Bratislava Castle");
+</script>
+
+  </body>
+</html>

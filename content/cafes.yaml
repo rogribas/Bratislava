@@ -1,0 +1,73 @@
+cafes:
+- id: kollarko
+  name: Kollarko
+  zone: Bratislava
+  category: Cafè
+  coordinates:
+  - 48.149261
+  - 17.1130754
+  google_maps: https://maps.google.com/?cid=5395736912658277929
+  images:
+  - https://bier-traveller.com/wp-content/uploads/2019/11/Bratislava-Kollarko-Bier-Traveller-7.jpg
+  short_description: Lloc destacat a Bratislava.
+  description: Cafeteria tranquil·la per fer una pausa.
+- id: cafe-next-apache
+  name: Cafe Next Apache
+  zone: Bratislava
+  category: Cafè
+  coordinates:
+  - 48.1479786
+  - 17.1050194
+  google_maps: https://maps.google.com/?cid=18018609869369942650
+  images:
+  - https://kafkadeskdotorg.wordpress.com/wp-content/uploads/2018/11/next-apache.jpg?w=968&h=648
+  description: Cafè amb ambient informal.
+  notes: []
+- id: blue-mondays-coffee-roasters
+  name: Blue Mondays Coffee Roasters
+  zone: Bratislava
+  category: Cafè
+  coordinates:
+  - 48.1445274
+  - 17.1156023
+  google_maps: https://maps.google.com/?cid=8302369537381697885
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxk1MfOnAh9RJCV_YK-Cv55wODuaNgflYufw&s
+  description: Cafè d’especialitat i bon ambient.
+  notes: []
+- id: axioma-cafe
+  name: Axioma Cafe
+  zone: Bratislava
+  category: Cafè
+  coordinates:
+  - 48.147459
+  - 17.1175433
+  google_maps: https://maps.google.com/?cid=2335085260823638666
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2015/05/axioma-interier.jpg
+  description: Cafeteria propera i lluminosa.
+  notes: []
+- id: ajov-a-v-podzem
+  name: Čajovňa v podzemí
+  zone: Bratislava
+  category: Cafè
+  coordinates:
+  - 48.143106
+  - 17.1062123
+  google_maps: https://maps.google.com/?cid=15276442615032629999
+  images:
+  - https://www.podzemicko.sk/wp-content/uploads/2018/02/Afrika-2-1.jpg
+  description: Casa de te en un espai subterrani.
+  notes: []
+- id: 10-prstov-cafe-bar
+  name: 10 prstov Cafe-Bar
+  zone: Bratislava
+  category: Cafè
+  coordinates:
+  - 48.1433245
+  - 17.1108218
+  google_maps: https://maps.google.com/?cid=3506083322113120536
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/9a/e6/0b/smoking-area-in-the-passage.jpg?w=900&h=500&s=1
+  description: Cafè i cuina lleugera amb bon cafè.
+  notes: []

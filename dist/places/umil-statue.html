@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Čumil Statue · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0juK7ERMkQoVB0rpRXirMp97hCCKgFbtlWQ&amp;s" alt="Čumil Statue" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Čumil Statue</h1>
+        <div class="tag">Estàtua</div>
+        
+          <p class="lead">L’estàtua de Čumil és una de les escultures més populars i simpàtiques de Bratislava. Representa un treballador del clavegueram sortint d’una tapa i observant els vianants amb un somriure.<br><br>Instal·lada l’any 1997, aquesta escultura forma part d’un conjunt d’estàtues modernes que es van crear per donar un toc d’humor i personalitat al centre històric. El seu nom significa aproximadament “l’observador” o “el tafaner”.<br><br>Els visitants sovint fan cua per fer-se fotografies amb l’estàtua, que s’ha convertit en un dels símbols turístics més estimats de la ciutat. També hi ha diverses llegendes urbanes sobre el seu significat, fet que augmenta el seu encant.<br><br>Situada en un carrer empedrat del casc antic, l’estàtua convida a explorar els voltants i descobrir altres escultures curioses que decoren Bratislava.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=2438025716339334836" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1428677, 17.1088427], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1428677, 17.1088427]).addTo(miniMap).bindPopup("Čumil Statue");
+</script>
+
+  </body>
+</html>

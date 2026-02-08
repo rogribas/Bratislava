@@ -1,0 +1,47 @@
+parks:
+- id: sad-janka-kr-la
+  name: Sad Janka Krála
+  zone: Bratislava
+  category: Parc
+  coordinates:
+  - 48.13524
+  - 17.10973
+  google_maps: https://maps.google.com/?cid=17475444072638186812
+  images:
+  - https://img.freepik.com/fotos-premium/torre-gotica-sad-janka-krala-bratislava-eslovaquia_165988-820.jpg
+  short_description: |
+    Un dels parcs públics més antics d’Europa Central, situat a la riba dreta del riu Danubi, just davant del centre històric de Bratislava. Fundat al segle XVIII, destaca pel seu disseny paisatgístic d’estil anglès, amb amplis camins arbrats, zones d’ombra i espais ideals per passejar o descansar. El parc rep el nom del poeta romàntic eslovac Janko Kráľ, figura important de la literatura nacional.
+
+    A l’interior del parc es poden trobar diversos elements històrics, com la torre gòtica procedent d’una antiga església franciscana, que és un dels seus símbols més reconeguts. També disposa de zones infantils, àrees per fer esport i espais oberts on sovint es fan activitats culturals i recreatives, convertint-lo en un punt molt popular tant per locals com per visitants.
+
+
+- id: strkoveck-jazero
+  name: Strkovecké jazero
+  zone: Bratislava
+  category: Parc
+  coordinates:
+  - 48.15801
+  - 17.14875
+  google_maps: https://maps.google.com/?cid=12957804355288884089
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kk0BAEJc9Q55ObpzHE24gKt3zUpHJOa1RQ&s
+  short_description: |
+    Aquest llac urbà és un dels espais naturals més estimats del barri de Ružinov. Originat a partir d’una antiga gravera, avui és una zona verda molt ben cuidada envoltada d’un passeig circular ideal per caminar, córrer o anar amb bicicleta. L’aigua del llac atrau diverses espècies d’aus aquàtiques, fet que el converteix en un lloc agradable per observar natura dins la ciutat.
+
+    Al voltant del llac hi ha parcs infantils, zones esportives, bancs i terrasses, cosa que el fa molt popular entre famílies i persones que busquen un espai tranquil per relaxar-se. Durant els mesos més càlids és habitual veure gent practicant esports a l’aire lliure o gaudint de les zones verdes, mentre que a l’hivern ofereix un paisatge més calm i pintoresc.
+
+
+- id: park-ra-ianske-m-to-olivovka
+  name: Park Račianske mýto (Olivovka)
+  zone: Bratislava
+  category: Parc
+  coordinates:
+  - 48.15868
+  - 17.11866
+  google_maps: https://maps.google.com/?cid=14889947947740748607
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHak8hyoanVgmoS6wtKhIvUP5-mnyaSOCY9A&s
+  short_description: |
+    Aquest petit parc urbà situat a la zona de Račianske mýto és un espai verd compacte però molt freqüentat pels residents del barri. Ofereix una pausa tranquil·la dins d’una àrea amb molt trànsit i activitat urbana, amb camins curts, bancs i vegetació que proporciona ombra i confort per descansar.
+
+    Malgrat la seva mida reduïda, el parc serveix com a punt de trobada per a veïns i com a zona de pas agradable per a vianants. La seva ubicació estratègica el converteix en un lloc útil per fer petites pauses, llegir o simplement desconnectar uns minuts del ritme de la ciutat, mantenint un ambient acollidor i accessible.

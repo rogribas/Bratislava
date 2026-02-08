@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eurovea · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Bratislava_Eurovea_MYSELF_2014_-_panoramio.jpg" alt="Eurovea" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Eurovea</h1>
+        <div class="tag">Centre comercial</div>
+        
+          <p class="lead">Eurovea és una moderna zona comercial i d’oci situada al costat del riu Danubi, que combina botigues, restaurants, espais culturals i un agradable passeig fluvial. És un dels punts més animats de Bratislava, especialment durant els mesos d’estiu.<br><br>El complex ofereix una gran varietat d’establiments comercials i gastronòmics, des de marques internacionals fins a restaurants amb cuina local i internacional. Les terrasses amb vista al riu són especialment populars entre els visitants.<br><br>Un dels principals atractius d’Eurovea és el seu passeig marítim, ideal per caminar, anar amb bicicleta o simplement relaxar-se observant els vaixells que naveguen pel Danubi. La zona també acull esdeveniments culturals i festivals durant tot l’any.<br><br>La proximitat al Teatre Nacional Eslovac i a altres espais culturals converteix Eurovea en un lloc que combina compres, cultura i natura urbana.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=13538759457401221910" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1403215, 17.121313], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1403215, 17.121313]).addTo(miniMap).bindPopup("Eurovea");
+</script>
+
+  </body>
+</html>

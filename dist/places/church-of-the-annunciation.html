@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Church of the Annunciation · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://www.vypadni.sk/Img/9c6fb9e0-0e07-4760-9ce5-caf022fbe73d/800/600" alt="Church of the Annunciation" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Church of the Annunciation</h1>
+        <div class="tag">Església</div>
+        
+          <p class="lead">L’Església de l’Anunciació és un temple barroc situat al centre històric de Bratislava, conegut per la seva elegància arquitectònica i el seu ambient tranquil. Tot i ser menys coneguda que altres esglésies de la ciutat, és un exemple destacat de l’arquitectura religiosa del segle XVIII.<br><br>L’interior de l’església presenta decoracions barroques, altars ornamentats i frescos que reflecteixen la tradició artística religiosa de l’època. L’espai transmet una sensació d’intimitat i espiritualitat.<br><br>Durant la seva història, l’església ha estat un centre religiós important per a la comunitat local i encara avui acull celebracions litúrgiques.<br><br>La seva ubicació discreta la converteix en una parada interessant per als visitants que volen descobrir racons menys massificats del centre antic.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=5048457912903480951" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1447256, 17.1080929], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1447256, 17.1080929]).addTo(miniMap).bindPopup("Church of the Annunciation");
+</script>
+
+  </body>
+</html>

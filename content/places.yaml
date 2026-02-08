@@ -1,0 +1,581 @@
+places:
+- id: apartament
+  name: APARTAMENT
+  zone: Bratislava
+  category: Lloc d'interès
+  coordinates:
+  - 48.1435541
+  - 17.1113781
+  google_maps: https://maps.google.com/?cid=13303517579197767983
+  images:
+  - https://cf.bstatic.com/xdata/images/hotel/max1024x768/524449684.jpg?k=db9060384f9511300e14a6e3e9c2c54b2b00fd41a98718ad6d8c5d0c7fb646c5&o=
+  short_description: Apartament o allotjament al centre.
+  description: |
+    Apartament cèntric ideal per explorar Bratislava a peu, situat en el cor del barri vell. Aquest allotjament ofereix accés fàcil a les principals atraccions turístiques com el Castell de Bratislava, la Plaça Principal i el Pont SNP amb les seves vistes panoràmiques. La ubicació estratègica permet als visitants gaudir de l'atmosfera històrica de la ciutat while having modern amenities and a comfortable base for exploring Slovak capital.
+
+- id: castell-de-bratislava
+  name: Castell de Bratislava
+  zone: Bratislava
+  category: Castell
+  coordinates:
+  - 48.1421086
+  - 17.1002348
+  google_maps: https://maps.google.com/?cid=3446134353892385081
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2014/10/letecka-vychod-slnka-hrad-800x533.jpg
+  short_description: Castell emblemàtic amb vistes al Danubi.
+  description: |
+    El Castell de Bratislava és un dels símbols més emblemàtics de la ciutat i domina l’horitzó des d’un turó sobre el riu Danubi. La seva silueta blanca amb quatre torres és visible des de molts punts i representa la història i el poder de la regió al llarg dels segles.
+
+    El castell actual és una reconstrucció del segle XX basada en l’estructura barroca que existia abans que un incendi el destruís al segle XIX. Tot i les reformes, conserva l’essència històrica i acull el Museu Nacional Eslovac, on es poden veure exposicions sobre la història del país.
+
+    Des del recinte del castell es poden gaudir d’espectaculars vistes panoràmiques de Bratislava, el Danubi i fins i tot territoris d’Àustria i Hongria en dies clars. Els jardins del voltant són ideals per passejar tranquil·lament.
+
+    El castell també ha tingut una gran importància política, ja que va ser residència reial durant el període en què Bratislava era ciutat de coronació dels reis hongaresos.
+
+
+- id: marketplace-mileti-ova
+  name: Marketplace Miletičova
+  zone: Bratislava
+  category: Mercat
+  coordinates:
+  - 48.1532845
+  - 17.1372092
+  google_maps: https://maps.google.com/?cid=8486620953839809362
+  images:
+  - https://image-worker.mindtrip.ai/image-resize/format=webp,w=720/https:/images.mindtrip.ai/attractions/f362/0e70/548f/d97d/edc8/5b79/a098/e8a6
+  short_description: Mercat local amb productes frescos.
+  description: |
+    El mercat de Miletičova és el mercat tradicional més gran i popular de Bratislava i un dels millors llocs per descobrir la vida quotidiana dels habitants locals. Situat al barri de Ružinov, aquest mercat manté viva la tradició dels mercats de proximitat.
+
+    Els visitants poden trobar una gran varietat de productes frescos com fruites, verdures, embotits artesanals, formatges fumats i mel local. També hi ha parades amb especialitats gastronòmiques eslovaques.
+
+    Passejar pel mercat permet conèixer millor la cultura culinària del país i observar l’ambient autèntic de la ciutat fora de les zones més turístiques.
+
+    És recomanable visitar-lo durant el matí, quan hi ha més activitat i una major varietat de productes.
+
+- id: ufo-tower-bridge-snp
+  name: UFO Tower / Bridge SNP
+  zone: Bratislava
+  category: Pont
+  coordinates:
+  - 48.1367327
+  - 17.1045998
+  google_maps: https://maps.google.com/?cid=16603980719519786138
+  images:
+  - https://laughingsquid.com/wp-content/uploads/2025/05/UFO-Bridge-Bratislava.jpg
+  short_description: Pont i mirador amb vistes panoràmiques.
+  description: |
+    El pont SNP és una de les estructures més modernes i reconeixibles de Bratislava, construït sobre el riu Danubi i inaugurat l’any 1972. El seu nom significa Pont de la Revolta Nacional Eslovaca.
+
+    El pont destaca pel seu disseny futurista amb una sola torre inclinada que sosté tota l’estructura mitjançant cables. És una obra destacada d’enginyeria moderna.
+
+    A la part superior del pont hi ha la famosa UFO Tower, un mirador amb forma de nau espacial que ofereix panoràmiques espectaculars de la ciutat i els països veïns.
+
+    La torre també disposa d’un restaurant panoràmic i és especialment popular durant la posta de sol.
+
+- id: slovak-radio
+  name: Slovak Radio
+  zone: Bratislava
+  category: Edifici
+  coordinates:
+  - 48.1536106
+  - 17.114208
+  google_maps: https://maps.google.com/?cid=3563405190068935117
+  images:
+  - https://imaginoso.com/files/slovakia/bratislava/2401-slovak-radio-building-south-elevation-2554.jpg
+  short_description: Edifici icònic de la ràdio eslovaca.
+  description: |
+    L’edifici de la Ràdio Eslovaca és una de les construccions més singulars de Bratislava, coneguda per la seva forma piramidal invertida. Va ser construït entre els anys 1967 i 1983.
+
+    Aquest edifici és un exemple destacat d’arquitectura brutalista i representa el desenvolupament arquitectònic durant l’època comunista.
+
+    A l’interior hi ha una sala de concerts amb una acústica excel·lent, on se celebren actuacions musicals i esdeveniments culturals.
+
+    L’edifici és considerat un símbol arquitectònic modern i un punt d’interès per als amants del disseny.
+
+- id: the-blue-church-church-of-st-elizabeth
+  name: The Blue Church - Church of St. Elizabeth
+  zone: Bratislava
+  category: Església
+  coordinates:
+  - 48.1434028
+  - 17.1169342
+  google_maps: https://maps.google.com/?cid=5617757060704747062
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1NZJ0Hyia3F3_2PPzUqXNEUV4dM5LCDm9tg&s
+  short_description: Església modernista d’un blau característic.
+  description: |
+    L’Església de Santa Elisabet, coneguda com la Blue Church, és un dels edificis més fotografiats de Bratislava. Construïda a principis del segle XX en estil modernista hongarès, destaca pel seu color blau característic.
+
+    L’església està dedicada a Santa Elisabet d’Hongria i va ser dissenyada per l’arquitecte Ödön Lechner, un dels principals representants del modernisme a Europa Central.
+
+    L’interior manté la mateixa estètica cromàtica que l’exterior, creant una atmosfera única i sorprenent per als visitants.
+
+    Situada fora del centre més turístic, ofereix un ambient tranquil i és ideal per descobrir racons menys massificats de la ciutat.
+
+- id: palau-grassalkovich
+  name: Palau Grassalkovich
+  zone: Bratislava
+  category: Lloc d'interès
+  coordinates:
+  - 48.1491959
+  - 17.1077447
+  google_maps: https://maps.google.com/?cid=12924979267777792506
+  images:
+  - https://img.freepik.com/fotos-premium/palacio-grassalkovich-es-palacio-bratislava-residencia-presidente-eslovaquia-palacio-grassalkovich-esta-situado-plaza-hodzovo-namestie_78361-9922.jpg
+  short_description: Palau presidencial amb jardins.
+  description: |
+    El Palau Grassalkovich és la residència oficial del president d’Eslovàquia i un dels edificis barrocs més importants de Bratislava. Va ser construït al segle XVIII per al comte Antal Grassalkovich.
+
+    El palau destaca per la seva elegant façana blanca i pels jardins situats a la part posterior, que estan oberts al públic.
+
+    Durant el segle XVIII va ser un centre social important on es celebraven concerts i esdeveniments aristocràtics.
+
+    Avui és un símbol polític i històric del país i un punt destacat per als visitants.
+- id: hlavn-n-mestie
+  name: Hlavné námestie
+  zone: Bratislava
+  category: Plaça
+  coordinates:
+  - 48.143508
+  - 17.1084789
+  google_maps: https://maps.google.com/?cid=6774207005440058464
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hlavn%C3%A9_n%C3%A1mestie-The_napoleonic_soldier%2C_Old_Town_Hall_and_Roland_Fountain-Bratislava.JPG/330px-Hlavn%C3%A9_n%C3%A1mestie-The_napoleonic_soldier%2C_Old_Town_Hall_and_Roland_Fountain-Bratislava.JPG
+  short_description: Plaça principal del centre històric.
+  description: |
+    La Hlavné námestie, o Plaça Principal, forma el cor històric del nucli antic de Bratislava i ha estat el punt de trobada central de la ciutat durant més de 600 anys. Aquesta pintoresca plaça mostra una fascinant barreja d'estils arquitectònics, amb l'Ajuntament Vell dominant com a peça central. La forma irregular de la plaça i els seus colorits edificis renaixentistes i barrocs creen una atmosfera clarament centreeuropea que ha estat testimoni d'innombrables esdeveniments històrics, mercats i celebracions al llarg de la llarga història de Bratislava.
+
+    Els monuments més significatius de la plaça inclouen la Font de Roland, una rèplica impressionant de la font original de 1572 que simbolitzava els privilegis de la ciutat i els drets de mercat, i el complex de l'Ajuntament Vell amb la seva torre distintiva que ofereix vistes panoràmiques. Potser el més intrigant és l'estàtua del Soldat Napoleònic, un curiós monument que commemora la mirada de l'exèrcit francès sobre Bratislava el 1805 quan Napoleó observava la ciutat des d'aquest mateix lloc. La plaça també compta amb diversos cafès i restaurants les terrasses dels quals s'aboquen sobre els llambordes, creant una atmosfera vibrant, especialment durant els mesos d'estiu.
+
+    Al llarg de la història, Hlavné námestie ha estat l'escenari de proclamacions reials, execucions públiques, processons de coronació, i avui acull mercats de Nadal i festivals culturals. Els edificis que envolten la plaça alberguen importants museus, botigues i la farmàcia més antiga de la ciutat, que data del segle XVI. Caminar per aquests llambordes ofereix als visitants una connexió directa amb el passat medieval de Bratislava mentre gaudeixen de l'energia viva de la cultura i la cuina eslovaques modernes.
+- id: old-town-hall
+  name: Old Town Hall
+  zone: Bratislava
+  category: Edifici històric
+  coordinates:
+  - 48.143791
+  - 17.1086765
+  google_maps: https://maps.google.com/?cid=980569153589430502
+  images:
+  - https://www.welcometobratislava.eu/wp-content/uploads/2018/10/DSC02378.jpg
+  short_description: Ajuntament històric amb torre.
+  description: |
+    L’Antic Ajuntament és un dels edificis més antics de Bratislava i un conjunt arquitectònic format per diverses construccions unides al llarg dels segles. Les seves parts més antigues daten del segle XIV.
+
+    L’edifici combina diferents estils arquitectònics, com el gòtic, el renaixentista i el barroc, reflectint les diferents etapes històriques de la ciutat.
+
+    Actualment, acull el Museu de la Ciutat de Bratislava, on es poden veure exposicions sobre la història local, així com instruments de tortura medievals i objectes històrics.
+
+    La torre de l’ajuntament ofereix una vista privilegiada del centre històric i és un dels punts panoràmics més populars.
+
+- id: umil-statue
+  name: Čumil Statue
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1428677
+  - 17.1088427
+  google_maps: https://maps.google.com/?cid=2438025716339334836
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0juK7ERMkQoVB0rpRXirMp97hCCKgFbtlWQ&s
+  short_description: Estàtua popular al carrer, ideal per fotos.
+  description: |
+    L’estàtua de Čumil és una de les escultures més populars i simpàtiques de Bratislava. Representa un treballador del clavegueram sortint d’una tapa i observant els vianants amb un somriure.
+
+    Instal·lada l’any 1997, aquesta escultura forma part d’un conjunt d’estàtues modernes que es van crear per donar un toc d’humor i personalitat al centre històric. El seu nom significa aproximadament “l’observador” o “el tafaner”.
+
+    Els visitants sovint fan cua per fer-se fotografies amb l’estàtua, que s’ha convertit en un dels símbols turístics més estimats de la ciutat. També hi ha diverses llegendes urbanes sobre el seu significat, fet que augmenta el seu encant.
+
+    Situada en un carrer empedrat del casc antic, l’estàtua convida a explorar els voltants i descobrir altres escultures curioses que decoren Bratislava.
+- id: aupark-bratislava
+  name: Aupark Bratislava
+  zone: Bratislava
+  category: Centre comercial
+  coordinates:
+  - 48.132927
+  - 17.1080538
+  google_maps: https://maps.google.com/?cid=933455088108524397
+  images:
+  - https://hbreavis.com/wp-content/uploads/bis-images/866/Aupark_Shopping_Center_Bratislava_3-480x260-f50_50.jpg
+  short_description: Centre comercial al costat del riu.
+  description: |
+    Aupark és un dels centres comercials més grans i moderns de Bratislava, situat a la riba sud del riu Danubi. La seva ubicació estratègica el converteix en un punt de trobada tant per als habitants locals com per als turistes que volen combinar compres amb activitats d’oci.
+
+    El centre comercial compta amb una gran varietat de botigues internacionals, restaurants, cafeteries i espais d’entreteniment. És un lloc ideal per descansar després d’un dia de turisme, gaudir d’un àpat o comprar records i productes locals.
+
+    A més de les opcions comercials, Aupark ofereix zones verdes i espais exteriors agradables per passejar. Des d’algunes zones es poden contemplar bones vistes del Danubi i del perfil urbà del centre històric.
+
+    La seva proximitat al pont SNP i al casc antic fa que sigui fàcilment accessible a peu o amb transport públic, convertint-lo en una parada còmoda dins d’una ruta turística per la ciutat.
+- id: palis-dy-street
+  name: Palisády Street
+  zone: Bratislava
+  category: Carrer
+  coordinates:
+  - 48.14609656666667
+  - 17.0999814
+  google_maps: https://maps.app.goo.gl/7jL993rm6aEMua5i7
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/f/fc/Bratislava_-_Palis%C3%A1dy_-_View_WNW.jpg
+  short_description: Passeig agradable amb vistes i arquitectura.
+  description: |
+    El carrer Palisády és un dels carrers més elegants i tranquils de Bratislava, situat als vessants del turó del Castell. Aquest carrer destaca per la seva arquitectura residencial històrica, amb edificis senyorials, ambaixades i institucions culturals.
+
+    Passejar per Palisády permet descobrir una cara més relaxada de la ciutat, lluny de l’activitat intensa del centre turístic. El carrer està envoltat de zones verdes i ofereix boniques vistes cap a la ciutat i el riu Danubi.
+
+    Històricament, aquesta zona ha estat associada amb les classes acomodades i amb el desenvolupament urbà del segle XIX i principis del XX. Molts edificis mostren influències arquitectòniques neoclàssiques i modernistes.
+
+    És un lloc perfecte per fer una caminada tranquil·la mentre s’explora la transició entre el centre històric i les zones residencials més exclusives de Bratislava.
+
+- id: eurovea
+  name: Eurovea
+  zone: Bratislava
+  category: Centre comercial
+  coordinates:
+  - 48.1403215
+  - 17.121313
+  google_maps: https://maps.google.com/?cid=13538759457401221910
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/9/98/Bratislava_Eurovea_MYSELF_2014_-_panoramio.jpg
+  short_description: Zona comercial i de passeig al riu.
+  description: |
+    Eurovea és una moderna zona comercial i d’oci situada al costat del riu Danubi, que combina botigues, restaurants, espais culturals i un agradable passeig fluvial. És un dels punts més animats de Bratislava, especialment durant els mesos d’estiu.
+
+    El complex ofereix una gran varietat d’establiments comercials i gastronòmics, des de marques internacionals fins a restaurants amb cuina local i internacional. Les terrasses amb vista al riu són especialment populars entre els visitants.
+
+    Un dels principals atractius d’Eurovea és el seu passeig marítim, ideal per caminar, anar amb bicicleta o simplement relaxar-se observant els vaixells que naveguen pel Danubi. La zona també acull esdeveniments culturals i festivals durant tot l’any.
+
+    La proximitat al Teatre Nacional Eslovac i a altres espais culturals converteix Eurovea en un lloc que combina compres, cultura i natura urbana.
+
+- id: est-tua-do-soldado-de-napole-o
+  name: Estátua do Soldado de Napoleão
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1434903
+  - 17.1080414
+  google_maps: https://maps.google.com/?cid=13798330557380396907
+  images:
+  - https://media.istockphoto.com/id/689173002/es/foto/estatua-de-soldado-del-ej%C3%A9rcito-de-napole%C3%B3n-en-bratislava.jpg?s=170667a&w=0&k=20&c=1P79dhxSrtnL7hyXQPx4LZsMJHM4uc8gQKsS5nZj7wM=
+  short_description: Escultura simbòlica a l’Old Town.
+  description: |
+    L’estàtua del soldat napoleònic és una escultura situada a la Plaça Principal que recorda la presència de l’exèrcit francès a Bratislava durant les guerres napoleòniques. Representa un soldat recolzat en un banc mentre observa la plaça amb una actitud relaxada.
+
+    Aquesta escultura commemora els esdeveniments de l’any 1805, quan les tropes de Napoleó van ocupar la ciutat. La presència francesa va deixar una empremta històrica important i aquesta estàtua serveix com a record simbòlic d’aquell període.
+
+    És una de les escultures més curioses del centre històric i sovint passa desapercebuda si no es busca específicament. Molts visitants gaudeixen descobrint-la mentre passegen per la plaça.
+
+    La seva ubicació en un espai tan emblemàtic permet combinar la visita amb altres punts d’interès històric i arquitectònic del centre antic.
+
+- id: sch-ne-n-ci
+  name: Schöne Náci
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1431387
+  - 17.1083992
+  google_maps: https://maps.google.com/?cid=2218971717633399370
+  images:
+  - https://img.atlasobscura.com/jtYTxpRgvHk5PdoYgNqaWF-CdjmYLBlSNRU3JKmhOlk/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy81NjAw/ZmQyNS1kOTMzLTQx/YzgtYWUwYy0wMjFh/ZmRjNDU2NDY2MjBi/OGQ1MjQ0NDNmZTgy/NmZfU04uanBn.jpg
+  short_description: Estàtua clàssica al centre.
+  description: |
+    Schöne Náci és una estàtua dedicada a Ignác Lamár, un personatge real molt estimat pels habitants de Bratislava. Era conegut per passejar elegantment vestit pels carrers del centre, saludant la gent amb educació i simpatia.
+
+    Lamár es va convertir en una figura popular durant el segle XX i és recordat com un símbol de l’esperit amable i hospitalari de la ciutat. L’estàtua el representa saludant amb el seu barret, recreant la seva imatge característica.
+
+    Avui dia, aquesta escultura és un punt molt fotografiat pels visitants i forma part del conjunt d’estàtues urbanes que aporten personalitat al casc antic.
+
+    La seva presència recorda la importància de les històries humanes i quotidianes dins del patrimoni cultural de Bratislava.
+
+- id: maximilian-s-fountain
+  name: Maximilian's fountain
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1433702
+  - 17.1081634
+  google_maps: https://maps.google.com/?cid=15576979326475654533
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/48/4b/3c/maximilian-s-fountain.jpg?w=900&h=500&s=1
+  short_description: Font històrica a la plaça principal.
+  description: |
+    La Font de Maximilià, també coneguda com la Font de Roland, és un dels monuments més antics i importants de la Plaça Principal. Va ser construïda l’any 1572 per celebrar la coronació del rei Maximilià II d’Hongria.
+
+    La font representa un cavaller amb armadura que simbolitza la protecció de la ciutat i els privilegis municipals concedits durant aquella època. És un element central de la plaça i un punt de trobada habitual tant per locals com per turistes.
+
+    Al llarg dels segles, la font ha estat testimoni de celebracions, mercats i esdeveniments històrics importants. Actualment, continua sent un símbol del passat medieval i renaixentista de Bratislava.
+
+    El seu entorn ple d’edificis històrics i terrasses de restaurants crea una atmosfera molt pintoresca, especialment durant les festivitats i mercats nadalencs.
+
+- id: medieval-city-walls
+  name: Muralles Medievals
+  zone: Bratislava
+  category: Muralles
+  coordinates:
+  - 48.1422557
+  - 17.1045889
+  google_maps: https://maps.google.com/?cid=11517981195408343473
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2015/05/Bratislava_hradby-800x600.jpg
+  short_description: Restes de les muralles medievals.
+  description: |
+    Les muralles medievals de Bratislava són les restes del sistema defensiu que protegia la ciutat durant l’edat mitjana. Originalment, la ciutat estava envoltada per una complexa xarxa de murs, torres i fossats que controlaven l’accés al nucli urbà.
+
+    Actualment, només es conserven alguns trams d’aquestes muralles, però ofereixen una idea clara de la importància estratègica que tenia Bratislava com a centre comercial i polític. Les muralles estaven connectades amb diverses portes d’accés, com la Porta de Sant Miquel.
+
+    Passejar pels trams conservats permet imaginar com era la vida dins d’una ciutat fortificada medieval. A més, els voltants han estat restaurats i adaptats com a espais turístics i culturals.
+
+    Aquestes restes són un testimoni del desenvolupament històric de la ciutat i complementen perfectament la visita al casc antic.
+
+- id: hlavn-stanica-estaci-trens
+  name: Hlavná stanica (Estació trens)
+  zone: Bratislava
+  category: Estació
+  coordinates:
+  - 48.1581078
+  - 17.1071739
+  google_maps: https://maps.google.com/?cid=9801502718226731331
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bratislava_hlavn%C3%A1_stanica_September_2019.jpg/1280px-Bratislava_hlavn%C3%A1_stanica_September_2019.jpg
+  short_description: Estació central de trens.
+  description: |
+    L’estació central de trens de Bratislava, coneguda com Hlavná stanica, és el principal centre ferroviari de la ciutat. Construïda originalment al segle XIX, ha estat ampliada i renovada diverses vegades per adaptar-se al creixement del transport ferroviari.
+
+    L’estació connecta Bratislava amb ciutats importants d’Europa Central com Viena, Budapest o Praga, fet que la converteix en un punt estratègic per als viatgers internacionals.
+
+    Tot i que l’edifici actual combina elements històrics amb reformes modernes, conserva la seva funció essencial com a porta d’entrada a la ciutat per a molts visitants.
+
+    La seva ubicació permet accedir fàcilment al centre històric mitjançant transport públic o taxi, i és un punt habitual d’inici per a excursions regionals.
+
+- id: church-of-the-annunciation
+  name: Church of the Annunciation
+  zone: Bratislava
+  category: Església
+  coordinates:
+  - 48.1447256
+  - 17.1080929
+  google_maps: https://maps.google.com/?cid=5048457912903480951
+  images:
+  - https://www.vypadni.sk/Img/9c6fb9e0-0e07-4760-9ce5-caf022fbe73d/800/600
+  short_description: Església barroca discreta.
+  description: |
+    L’Església de l’Anunciació és un temple barroc situat al centre històric de Bratislava, conegut per la seva elegància arquitectònica i el seu ambient tranquil. Tot i ser menys coneguda que altres esglésies de la ciutat, és un exemple destacat de l’arquitectura religiosa del segle XVIII.
+
+    L’interior de l’església presenta decoracions barroques, altars ornamentats i frescos que reflecteixen la tradició artística religiosa de l’època. L’espai transmet una sensació d’intimitat i espiritualitat.
+
+    Durant la seva història, l’església ha estat un centre religiós important per a la comunitat local i encara avui acull celebracions litúrgiques.
+
+    La seva ubicació discreta la converteix en una parada interessant per als visitants que volen descobrir racons menys massificats del centre antic.
+
+- id: michael-s-gate
+  name: Michael’s Gate
+  zone: Bratislava
+  category: Porta
+  coordinates:
+  - 48.14517
+  - 17.10673
+  google_maps: https://maps.google.com/?cid=11536058061704934464
+  images:
+  - https://www.strassederkaiserundkoenige.com/wp-content/uploads/2017/11/500x300_2.-Michaeler-Tor_c-MS-Agency.jpg
+  short_description: Porta medieval, entrada principal de la ciutat antiga.
+  description: |
+    La Porta de Sant Miquel és l’única porta medieval que es conserva de les antigues muralles defensives de Bratislava. Construïda al segle XIV, és un dels monuments més antics de la ciutat.
+
+    La torre destaca pel seu estil barroc, afegit durant reformes posteriors, i està coronada amb una estàtua de Sant Miquel derrotant un drac. Aquest element simbolitza la protecció espiritual de la ciutat.
+
+    A l’interior de la torre hi ha un petit museu dedicat a la història de les fortificacions urbanes, on es poden veure armes antigues i informació sobre el sistema defensiu medieval.
+
+    La porta marca també l’inici del centre històric i és un punt molt popular per començar rutes turístiques a peu.
+
+
+- id: golder-crowns
+  name: Corones d'or al terra
+  zone: Bratislava
+  category: Corones
+  coordinates:
+  - 48.14517
+  - 17.10673
+  google_maps:
+  images:
+  - https://img1.wsimg.com/isteam/ip/c770ec4e-ef30-4e94-9cad-e0fc89f414f5/coronation-route-bratislava-slovakia-august-b.webp/:/rs=w:1280
+  short_description: Petites corones daurades al paviment, marca del passat reial de Bratislava.
+  description: |
+    Les Bratislava Golden Crowns són petites corones incrustades al paviment del centre històric que recorden el paper de la ciutat com a lloc de coronació dels reis i reines d’Hongria entre 1563 i 1830. 
+
+    El recorregut de les corones segueix el camí que els monarques recollien després de ser coronats a la Catedral de Sant Martí, passant per carrers i places emblemàtiques com Rudnayovo Square, Kapitulská Street i la Plaça Major. Aquest itinerari permet descobrir tant llocs coneguts com racons amagats de la ciutat.
+
+    A cada pas, les corones evoquen la pompa dels segles XVII i XVIII: nobles amb robes acolorides, guàrdies muntats i ciutadans aclaparant el pas del rei o la reina. El recorregut combina història, arquitectura i petites històries que donen vida al passat reial de Bratislava, tot a peu pel seu encantador centre antic.
+
+
+- id: pam-tn-kame-karlovi-krylovi
+  name: Pamätný kameň Karlovi Krylovi
+  zone: Bratislava
+  category: Monument
+  coordinates:
+  - 48.15252
+  - 17.11094
+  google_maps: https://maps.google.com/?cid=6318595054543976759
+  images:
+  - https://umeniemesta.sk/storage/media/1224/PNoSSPXxTQQJclB0lab4M08MnnXpkimUHxXAEa09tZY.jpeg
+  short_description: Monument commemoratiu dedicat a Karel Kryl.
+  description: |
+    El Pamätný kameň Karlovi Krylovi és un monument commemoratiu dedicat a Karel Kryl, un cantautor i poeta txec molt influent, conegut per les seves cançons de protesta contra el règim comunista durant la segona meitat del segle XX.
+
+    Kryl es va convertir en un símbol de la lluita per la llibertat d’expressió i els drets civils a Txecoslovàquia, especialment després de la invasió soviètica del 1968. Les seves lletres, sovint crítiques amb el sistema polític, van tenir un gran impacte cultural i social a la regió.
+
+    El monument consisteix en una pedra commemorativa senzilla però simbòlica que recorda la seva figura i la seva relació amb Bratislava i la història compartida entre txecs i eslovacs. És un espai de memòria cultural que posa en valor la música i la poesia com a formes de resistència política.
+
+    Tot i ser un punt menys conegut turísticament, el memorial ofereix una oportunitat per descobrir una part important de la història contemporània d’Europa Central i reflexionar sobre el paper de l’art en els processos socials i polítics.
+
+- id: st-martin-s-cathedral
+  name: St. Martin's Cathedral
+  zone: Bratislava
+  category: Església
+  coordinates:
+  - 48.14202
+  - 17.10476
+  google_maps: https://maps.google.com/?cid=14402334000592657117
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kk0BAEJc9Q55ObpzHE24gKt3zUpHJOa1RQ&s
+  short_description: Catedral gòtica de coronacions.
+  description: |
+    La Catedral de Sant Martí és una de les esglésies més importants i històriques de Bratislava. Construïda en estil gòtic entre els segles XIII i XV, va ser el lloc de coronació de nombrosos reis i reines del Regne d’Hongria.
+
+    La torre de la catedral està coronada amb una rèplica daurada de la Corona de Sant Esteve, que recorda el seu paper com a temple de coronacions. Aquest element és un dels detalls arquitectònics més característics de l’edifici.
+
+    L’interior destaca per la seva arquitectura gòtica, les capelles laterals i l’ambient solemne que reflecteix la seva importància religiosa i històrica. També conserva elements artístics i monuments funeraris destacats.
+
+    La seva ubicació a prop del centre històric la converteix en una parada imprescindible dins de qualsevol visita cultural per Bratislava.
+
+- id: slovak-national-theatre
+  name: Slovak National Theatre
+  zone: Bratislava
+  category: Teatre
+  coordinates:
+  - 48.14131
+  - 17.12294
+  google_maps: https://maps.google.com/?cid=2345407077150516991
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bratyslawa_Teatr_Narodowy.jpg/250px-Bratyslawa_Teatr_Narodowy.jpg
+  short_description: Teatre nacional amb programació cultural.
+  description: |
+    El Teatre Nacional Eslovac és una de les institucions culturals més importants del país i un referent de les arts escèniques a Bratislava. Fundat l’any 1920, representa el centre principal de l’òpera, el ballet i el teatre dramàtic eslovac.
+
+    L’actual complex compta amb dos edificis principals: l’edifici històric situat al centre antic i l’edifici modern ubicat a la zona d’Eurovea, al costat del riu Danubi. L’edifici modern destaca per la seva arquitectura contemporània.
+
+    El teatre ofereix una programació variada que inclou produccions clàssiques i modernes, amb artistes nacionals i internacionals.
+
+    Els voltants del teatre són ideals per passejar, combinant espais culturals, zones verdes i el passeig fluvial del Danubi.
+
+- id: primacial-palace
+  name: Primacial Palace
+  zone: Bratislava
+  category: Palau
+  coordinates:
+  - 48.14391
+  - 17.10965
+  google_maps: https://maps.google.com/?cid=2553111428876251535
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/11/85/91/primacialny-palac.jpg?w=900&h=500&s=1
+  short_description: Palau neoclàssic amb sales històriques.
+  description: |
+    El Palau Primacial és un magnífic edifici neoclàssic construït a finals del segle XVIII i un dels monuments històrics més importants de Bratislava. Va ser la residència dels arquebisbes d’Esztergom.
+
+    El palau és conegut perquè l’any 1805 s’hi va signar la Pau de Pressburg després de la batalla d’Austerlitz.
+
+    L’interior destaca per les seves sales elegants i una col·lecció única de tapissos anglesos del segle XVII.
+
+    Actualment, el palau també acull institucions municipals i és un punt destacat del centre històric.
+
+- id: hviezdoslavovo-n-mestie
+  name: Hviezdoslavovo námestie
+  zone: Bratislava
+  category: Plaça
+  coordinates:
+  - 48.1414
+  - 17.10716
+  google_maps: https://maps.google.com/?cid=3037882704311266589
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hviezdoslavovo_n%C3%A1mestie_%2810267450433%29.jpg/250px-Hviezdoslavovo_n%C3%A1mestie_%2810267450433%29.jpg
+  short_description: Passeig cèntric amb terrasses.
+  description: |
+    Hviezdoslavovo námestie és una de les places més animades i elegants del centre de Bratislava. Aquest passeig arbrat connecta el riu Danubi amb el casc antic.
+
+    La plaça està envoltada d’edificis històrics, restaurants i cafeteries amb terrasses que creen un ambient molt agradable.
+
+    El nom està dedicat al poeta eslovac Pavol Országh Hviezdoslav, representat amb una estàtua al centre del passeig.
+
+    Durant l’hivern, la plaça acull un popular mercat de Nadal que atrau visitants i locals.
+
+- id: slav-n
+  name: Slavín
+  zone: Bratislava
+  category: Monument
+  coordinates:
+  - 48.15393
+  - 17.09959
+  google_maps: https://maps.google.com/?cid=17607437690345434542
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/d8/57/03/caption.jpg?w=900&h=-1&s=1
+  short_description: Memorial i mirador de la ciutat.
+  description: Slavín és un memorial dedicat als soldats soviètics que van morir durant l’alliberament de Bratislava a la Segona Guerra Mundial. Està situat en un turó i és un lloc de gran importància històrica.
+
+    El memorial inclou un gran obelisc coronat amb una estàtua d’un soldat i un cementiri militar amb milers de tombes.
+
+    L’espai transmet respecte i memòria històrica pels esdeveniments bèl·lics que van marcar la ciutat.
+
+    També és un dels millors miradors de Bratislava, amb vistes panoràmiques espectaculars.
+
+
+- id: konzervat-rium-bratislava
+  name: Konzervatórium Bratislava
+  zone: Bratislava
+  category: Edifici
+  coordinates:
+  - 48.14966
+  - 17.10476
+  google_maps: https://maps.google.com/?cid=2190692196158989039
+  images:
+  - https://yt3.googleusercontent.com/ytc/AIdro_mrFtREr3cxAguOy_EDn7Nu1y0IbuS-c5edSOtauzGRcQ=s900-c-k-c0x00ffffff-no-rj
+  short_description: Conservatori amb arquitectura destacada.
+  description: |
+    El Conservatori de Bratislava és una institució educativa dedicada a la formació musical i artística amb una llarga tradició cultural.
+
+    Ha format nombrosos músics i artistes que han contribuït al desenvolupament de la música eslovaca.
+
+    Sovint organitza concerts i actuacions obertes al públic.
+
+    L’edifici destaca també pel seu interès arquitectònic i el seu valor cultural dins de la ciutat.
+
+- id: slovak-philharmonic
+  name: Slovak Philharmonic
+  zone: Bratislava
+  category: Sala de concerts
+  coordinates:
+  - 48.14086
+  - 17.11011
+  google_maps: https://maps.google.com/?cid=7956581065064509015
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/7/74/Slovak_Philharmonic.png
+  short_description: Sala de concerts amb prestigi.
+  description: |
+    La Filharmònica Eslovaca és una de les institucions musicals més prestigioses del país i té la seva seu al Palau Reduta, un edifici històric del centre de Bratislava.
+
+    L’orquestra és reconeguda internacionalment i ofereix concerts de música clàssica, simfònica i contemporània.
+
+    L’interior de la sala destaca per la seva decoració refinada i l’excel·lent acústica.
+
+    La seva ubicació prop del Danubi i del centre històric la converteix en una parada cultural molt accessible.
+
+- id: bust-franz-liszt
+  name: Bust Franz Liszt
+  zone: Bratislava
+  category: Escultura
+  coordinates:
+  - 48.14177
+  - 17.10551
+  google_maps: https://maps.google.com/?cid=3578837140368385587
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/8e/39/9b/caption.jpg?w=1400&h=-1&s=1
+  short_description: Monument dedicat al famós compositor i pianista Franz Liszt, que recorda la seva vinculació amb Bratislava i la seva influència en la música romàntica europea.

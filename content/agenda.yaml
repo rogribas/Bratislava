@@ -1,0 +1,186 @@
+agenda:
+  - date: "2025-02-13"
+    time_start: "22:00"
+    time_end: "04:00"
+    price: "10€"
+    location: "Wax2"
+    event_name: "Techno"
+    description: "Club techno night"
+    image_url: "https://scontent-mad2-1.cdninstagram.com/v/t51.82787-15/619236262_18112392946713211_8414034165918197178_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzgxNTc0MzkxOTgxNjczOTYyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExOTl4MTMzMC5zZHIuQzMifQ%3D%3D&_nc_ohc=p0dyVtPevrAQ7kNvwF7xb2s&_nc_oc=AdnafCzD6JtclQ6I471T5cko6aCE8yyBB9Hnaswa-9VumY0Dw1gFm6TzDUkw3l6Gg4I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mad2-1.cdninstagram.com&_nc_gid=9EUymSlrnnq4_mX8Vd9Efg&oh=00_AftZYb0jFde8nQd8QHYRNVUt4TV7gDTzL-LEOAIn2jiUrQ&oe=698D34B4"
+    urls:
+    - https://www.instagram.com/p/DT0PuDeiIst/
+    - https://www.facebook.com/events/1604678694291991/
+
+  - date: "2025-02-13"
+    time_start: "22:00"
+    time_end: "4:00"
+    price: "10 € ?"
+    location: "FUGA"
+    event_name: "Dark Waves X Fuga"
+    description: "Sounds like: Boy Harsher, Killing Joke, Ultra Sunn, Sisters of Mercy, Molchat Doma, The Cure..."
+    image_url: "https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/614673853_1351861566957513_3806255737219730079_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=baYVOGKnorUQ7kNvwFUxizR&_nc_oc=Adnbq5AfELazKx4q-88NWIyHPYCxxeGWB-kkwg5gBwJFs4WMuHOwnuXbJpUmj_VMBCA&_nc_zt=23&_nc_ht=scontent-mad2-1.xx&_nc_gid=fL51vVBgDgvq4GSL-Yilcw&oh=00_AfuGZyn6v-gcIk_jv9wNeKmASF2WX3L8buXH-KsOxxhkxQ&oe=698D4791"
+    urls:
+      - https://www.facebook.com/events/1905129553463137/
+      - https://www.instagram.com/fuga_ba/
+
+  - date: "2025-02-14"
+    time_start: "22:00"
+    time_end: "04:00"
+    price: "10 €"
+    location: "BEJS"
+    event_name: "FUGA"
+    description: "DRUM AND BASS / DEEP / SOULFUL / ROLLERS / NEUROFUNK"
+    image_url: "https://fuga.forumabsurdum.sk/wp-content/uploads/7e5f86d4-b1a2-4d0c-b22f-28f0757557ef-238x357.jpg"
+    urls:
+      - https://www.facebook.com/events/893043383198972
+
+  - date: "2025-02-13"
+    time_start: "20:00"
+    time_end: "02:00"
+    price: "GRATIS"
+    location: "Kácečko"
+    event_name: "After work dj bar"
+    description: "Stop after working on a drink, beer or lime tree and tune in for a weekend with a two-hour set from Beyuza. Fridays belong to the comfort – forget about the work worries and let yourself be carried away by the summer vib! 🍷Bar open: 16:00"
+    image_url: "https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/606916572_1310353657796664_4506042014019355950_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=75d36f&_nc_ohc=nX3S0Yo4Ub8Q7kNvwF71sFu&_nc_oc=Adn41xaAUukzmL8ovIY5tseJqqnzxGBDNBG1uQ5SIkNWzxJKNtYfIGKP6WfbyzsKi98&_nc_zt=23&_nc_ht=scontent-mad1-1.xx&_nc_gid=9ZX5lf5ILniYfSvc6r0UNQ&oh=00_AfsJ3upl7z1daCx9CwVVBVa721wu20JW7FKGJSP4V4qitA&oe=698D4FFC"
+    urls:
+      - https://www.facebook.com/events/2427820287614874/2427820307614872
+
+  - date: "2025-02-13"
+    time_start: "21:00"
+    time_end: "4:00"
+    price: "10 €"
+    location: "Kácečko"
+    event_name: "Mäsokombinight: Diffrent"
+    description: "UK garage, breaks, hard groove – so on Friday, February 13, there's no need to worry about boredom, just get ready for some dance cardio."
+    image_url: "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vMzA1Y2MyNDRjYTEyMWIxODAyMjM4OWExM2MyNzNhZDIxZTAwMmMwMi5qcGc="
+    urls:
+      - https://ra.co/events/2359506
+      - https://goout.net/en/masokombinight-diffrent%2Byoung-aesthete%2Bdalsi/szqgwfy/
+      - https://www.instagram.com/p/DUGsgvLDJyI
+
+  - date: "2025-02-13"
+    time_start: "23:00"
+    time_end: "03:00"
+    price: "FREE"
+    location: "Subdeck"
+    event_name: "Subdeck. mini: T4R live x VLDK"
+    description: "Another session at the bar stage: live set from T4R and VLDK from the Cereal fame on the decks!"
+    image_url: "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vYWM5YTE3NzZhYjIzNGJjMjAyNmU1Yzk2MDk0NzU0MTI2NmMzYzM2MC5qcGc="
+    urls:
+      - https://ra.co/events/2356445
+
+  - date: "2025-02-14"
+    time_start: "23:00"
+    time_end: "03:00"
+    price: "FREE"
+    location: "Subdeck"
+    event_name: "Subdeck. mini x NAĎOLAND: Naďa x Ank"
+    description: "Mutant Utopia resident Naďa meets OLAM co-founder Ank for afternoon listening session!"
+    image_url: "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vOTAzODNkY2NmMzc3OTgyN2RjMWI0NjIyMDczNDUzNmUzOGYxMDE1NC5qcGc="
+    urls:
+      - 
+
+  - date: "2025-02-13"
+    time_start: "22:00"
+    time_end: "05:00"
+    price: "12 €"
+    location: "Aldea"
+    event_name: "Melodica w. Rafaell, Y:I, Luke de Loud & Kyrah"
+    description: "Melodica will bring its signature mystical atmosphere to Aldea Club. Enjoy melodic & tech house music in an intimate space where every detail is part of the experience — from lighting effects to jungle-style decorations."
+    image_url: "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vOTVkMzI4MjRhYzFiZTdmYTM2M2M2Y2MzMTZkZGRiOWQyOWQ4NjZlYi5wbmc="
+    urls:
+      - https://ra.co/events/2351860
+      - https://aldeaclub.eu/en/events/melodica-w-rafaell-yi-luke-de-loud-kyrah/
+
+  - date: "2025-02-13"
+    time_start: "23:00"
+    time_end: "08:00"
+    price: "5/10 €"
+    location: "Radost"
+    event_name: "Invite w. Ian Kita (CZ) - Orta (CZ)"
+    description: "El col·lectiu Idem na techno dóna la benvinguda al DJ i productor txec Ian Kita a la seva nit resident v Radosti, acompanyat per l'augment del talent Orta. Espereu conjunts plens de techno d'alta qualitat, equilibrant l'energia de cop i el solc profund."
+    image_url: "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vN2Q0OTE3MjkyNTczY2M5NWI4NzllNDRkN2NjOWI2NDllNjMzMTU3NC5qcGc="
+    urls:
+      - https://ra.co/events/2359620
+
+  - date: "2025-02-14"
+    time_start: "23:00"
+    time_end: "08:00"
+    price: "5 / 10 €"
+    location: "Radost"
+    event_name: "make peace love & music w. The Hive Brothers"
+    description: "On Saturday, right on Valentine’s Day, another party from the Make Peace Love & Music series will take place at Radost, this time in its special OBSESSION edition. A club night focused on soft groove textures heaturing house, tech house, deep tech and minimal. The underground club is where the line between desire and obsession disappears"
+    image_url: "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vZDIwYjkxNjRlMDYyOTNiOWEwODUyYzM1N2Y4OTM5MjZkMTA3ZTA1NC5qcGc="
+    urls:
+      - https://ra.co/events/2359637
+
+  - date: "2025-02-13"
+    time_start: "22:00"
+    time_end: "03:30"
+    price: "8 €"
+    location: "Sãfko"
+    event_name: "TEPLÁREŇ KABARET & PÁRTY"
+    description: "In great spirits—and especially in a dance rhythm—Tepláreň continues after 11:00 PM as a party. 🪩 Arejko will warm you up first with a funny set full of musical twists. 🪩 Then the party kicks off in full force, with sexy beats brought to you this time by Sicksoul Groove and Makepeace. Get ready for lots of energy and house and tech-house tracks. 😎"
+    image_url: "https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vY2UyN2E3NWZkM2YxZGYzYTg5MGUyZjE2MTYwMTMyZDExNjI5MDM0ZC5qcGc="
+    urls:
+      - https://www.facebook.com/events/3610506665758448
+      - https://tootoot.fm/en/events/69623b084e7f4de54e9760e9
+
+  - date: "2025-02-14"
+    time_start: "21:00"
+    time_end: "03:00"
+    price: "?"
+    location: "Sãfko"
+    event_name: "REFRESHER VALENTÍN PARTY"
+    description: "Estàs solter i ja no gaudeixes dels tòpics de Sant Valentí? Vine a divertir-te a la festa de Sant Valentí de REFRESHER a Šafka."
+    image_url: "https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/622463826_876850101992270_2717670397076631717_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=vGXUImuGU5YQ7kNvwGR1-az&_nc_oc=AdnmMCu3GoXcp3zQC3I3BCnJhNzrEXogm9rfdClw_euR8FtZN0a8-i1oRit3zJSciro&_nc_zt=23&_nc_ht=scontent-mad1-1.xx&_nc_gid=1HVfULP-xsRxpLxFu9vj5A&oh=00_AftTdCzy8xx6518orB7ngjkprHMkNblu9dYEp-C_3OXTJg&oe=698D3A31"
+    urls:
+      - https://ra.co/events/2360711
+      - https://www.facebook.com/events/2035352013709700
+
+  - date: "2025-02-14"
+    time_start: "20:00"
+    time_end: "23:00"
+    price: "5€"
+    location: "Nu Spirit Bar"
+    event_name: "Jazz"
+    description: "Al febrer, han passat 25 anys des que Nu Spirit Bar forma part de la vostra vida nocturna. I un quart de segle en l'escena, es mereix una celebració adequada. Amb aquest esperit, tot el programa de febrer serà. Una persona en els nostres aniversaris no es pot perdre i aquest és el nostre amic de Tòquio, DJ i productor de classe mundial, Shuya Okino, llegenda de nujazz, cofundador de Kyoto Jazz Massive. Els que ja l'han viscut saben que aporta un so únic, en el qual connecta de manera electiva el soroll, la casa i l'electrònica."
+    image_url: "https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/621804577_1465358078928633_1845416344782176021_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=RdNZa_GGETQQ7kNvwFqbWj7&_nc_oc=Adk4y-JsD82BCehXRCcWyCFoorGP1GqT_e8N7nLmcwhz3pJiINpOkV-pjMVAdHnOAVo&_nc_zt=23&_nc_ht=scontent-mad1-1.xx&_nc_gid=jmtFwzI1SJyTJOKsARhclQ&oh=00_Afu5BKRANpaT2EY_AlEeAySRwsLj0JhAGAoLRrldm-x3dw&oe=698D25C3"
+    urls:
+      - https://www.facebook.com/events/788465030940271
+
+  - date: "2025-02-15"
+    time_start: "17:00"
+    time_end: "18:30"
+    price: "5 €"
+    location: "Nu Spirit Bar"
+    event_name: "Hudobné večery „u strún“ #27"
+    description: "El Duo del músic folk Robert Kerényi Szigony i el bateria de jazz Attila Gyáphas intenta crear un llenguatge musical que s'inspira en la música folklòrica de Gyimes i Moldva. Explorant les possibilitats sonores dels seus instruments i utilitzant la improvisació lliure, segueixen un diàleg musical especial."
+    image_url: "https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/616825890_122148209570654066_8098546844297210519_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=75d36f&_nc_ohc=gRlDFekh5tgQ7kNvwG6YbmV&_nc_oc=Admr4xVIVdhci90Ell_Kl7fzszQmGrcX631Sz3f0aRAxfqsOX3yukVEmZGwpERsQZEk&_nc_zt=23&_nc_ht=scontent-mad2-1.xx&_nc_gid=VwUI8DAnyleuGal_04YODQ&oh=00_AfsGzJAXH-TIO4B5vyEnXVo1MRxKKZiq-6Di5rwy2ILbJw&oe=698D526B"
+    urls:
+      - https://www.citylife.sk/koncert/hudobne-vecery-u-strun
+      - https://www.facebook.com/events/1537417760849676
+
+  - date: "2025-02-14"
+    time_start: "20:00"
+    time_end: null
+    price: "15 €"
+    location: "Pink Whale"
+    event_name: "✩ 𝓑𝓪𝓭 𝓡𝓸𝓶𝓪𝓷𝓬𝓮 ✩ : Mat213, Zandome, Pingi & ďalší | Tootoot"
+    description: "Concert 3 grups rollo pop electrònic / trap. El nostre riquet / la teva millor festa anti- Sant Valentí ja és aquí! Exactament el dissabte 14 de febrer, ens trobarem a la subcoberta del vaixell Pink Whale i farem les delícies dels nostres cors trencats i les ànimes fosques amb l'alineació tal com es crea per a aquest dia."
+    image_url: "https://ttcdn.b-cdn.net/images/Event/695d01895f78e7a921880f1e/04039cea-89b3-4e22-8ae5-21eb1b605f71.jpg?width=1200&height=1200"
+    urls:
+    - https://tootoot.fm/sk/events/695d01895f78e7a921880f1e
+    - https://www.instagram.com/pink_whale_cultc/
+    - https://www.facebook.com/events/940773549124388
+
+  - date: "2025-02-15"
+    time_start: "16:00"
+    time_end: "17:00"
+    price: "10 €"
+    location: "Slovenská filharmónia"
+    event_name: "Organový recitál II - Anne-Gaëlle Chanon"
+    description: "El segon recital d'orgue amb l'organista Anne-Gaëlle Chanon, que ret homenatge als distingits compositors i organistes francesos, el treball dels quals sobre els nostres escenaris poques vegades s'escolta."
+    image_url: "https://www.citylife.sk/sites/default/files/styles/plagat_a4/public/akcia/plagat/CITYLIFE/202510/o2-anne-gaelle-chanon.png?itok=_ErBWPRD"
+    urls:
+      - https://www.citylife.sk/vazna-hudba/organovy-recital-ii-slovenska-filharmonia

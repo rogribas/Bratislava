@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page_title }} · {{ city.name }}</title>
+    <link rel="stylesheet" href="{{ static_prefix }}css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    {% block head_extra %}{% endblock %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="{{ base_prefix }}index.html">{{ city.name }}</a>
+        <nav class="nav">
+          <a href="{{ base_prefix }}places/index.html">Llocs d'interès</a>
+          <a href="{{ base_prefix }}parks/index.html">Parcs</a>
+          <a href="{{ base_prefix }}museums/index.html">Museus</a>
+          <a href="{{ base_prefix }}restaurants/index.html">Restaurants</a>
+          <a href="{{ base_prefix }}cafes/index.html">Cafès</a>
+          <a href="{{ base_prefix }}bars/index.html">Bars</a>
+          <a href="{{ base_prefix }}clubs/index.html">Discoteques</a>
+          <a href="{{ base_prefix }}food-typical.html">Menjar típic</a>
+          <a href="{{ base_prefix }}phrases.html">Paraules</a>
+          <a href="{{ base_prefix }}history.html">Història</a>
+          <a href="{{ base_prefix }}agenda.html">Agenda</a>
+          <a href="{{ base_prefix }}schedule.html">Horari</a>
+          <a href="{{ base_prefix }}map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       {% block content %}
+       {% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

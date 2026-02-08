@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WAX2 · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Places</a>
+          <a href="../food/index.html">Food & Drink</a>
+          <a href="../nightlife/index.html">Nightlife</a>
+          <a href="../schedule.html">Schedule</a>
+          <a href="../map.html">Map</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Back to Places of Interest</a>
+    <div class="detail-hero">
+      <div>
+        <h1>WAX2</h1>
+        <div class="tag">Place</div>
+        <p class="lead">Notable spot in Bratislava.</p>
+        <ul class="meta">
+          <li><strong>Zone:</strong> Bratislava</li>
+          
+          <li><strong>Recommended time:</strong> 30–60 minutes</li>
+          
+        </ul>
+        
+        
+        <div class="card">
+          <h3>Google Maps</h3>
+          <p><a class="link" href="https://www.google.com/maps?q=48.143587,17.113287" target="_blank" rel="noopener">Open in Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+      <div class="mini-map" id="mini-map"></div>
+    </div>
+
+    <div class="gallery">
+      
+        <img src="../static/images/placeholder.svg" alt="Placeholder image" />
+      
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Built with a simple Python static site generator.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.143587, 17.113287], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.143587, 17.113287]).addTo(miniMap).bindPopup("WAX2");
+</script>
+
+  </body>
+</html>

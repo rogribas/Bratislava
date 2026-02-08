@@ -1,0 +1,81 @@
+clubs:
+- id: fuga
+  name: Fuga
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1444756
+  - 17.1121013
+  google_maps: https://maps.google.com/?cid=12368098413002976574
+  images:
+  - https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/488258941_1085197516981148_4883317451983072487_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=D5UzFEOGWwYQ7kNvwE6AlwU&_nc_oc=AdnhggrVNKQCVcvmvCf0XVVfTxAAoWHth8X0F87fVNEEkSmAcB04fTzvcaPhnkX63mc&_nc_zt=23&_nc_ht=scontent-mad2-1.xx&_nc_gid=eii-ZaMFqOrw0QObFzvHlg&oh=00_AfsAU_vwoQRES7p1HbgoMiS9vwixU9_AihIUKU1qMSYErA&oe=698CFC11
+  short_description: Fuga és un bar cultural i alternatiu situat al centre de Bratislava, conegut pel seu ambient underground i creatiu. El local combina música en directe, sessions de DJs independents, exposicions artístiques i esdeveniments culturals. És un punt de trobada habitual per a estudiants, artistes i amants de la música alternativa. L’ambient és relaxat i bohemi, ideal per començar la nit o gaudir d’una experiència cultural diferent dins l’escena nocturna de la ciutat.
+  description: Fuga és un bar cultural i alternatiu situat al centre de Bratislava, conegut pel seu ambient underground i creatiu. El local combina música en directe, sessions de DJs independents, exposicions artístiques i esdeveniments culturals. És un punt de trobada habitual per a estudiants, artistes i amants de la música alternativa. L’ambient és relaxat i bohemi, ideal per començar la nit o gaudir d’una experiència cultural diferent dins l’escena nocturna de la ciutat.
+
+- id: wax2
+  name: WAX2
+  zone: Bratislava
+  category: Discoteca
+  coordinates:
+  - 48.143587
+  - 17.113287
+  google_maps: https://maps.google.com/?cid=12684966348635521849
+  images:
+  - https://mobil.citylife.sk/sites/default/files/article/449/2023-12/063f938f-5dda-4f3d-85f2-40c32e69e9f0_1.jpeg
+  short_description: WAX2 és una discoteca moderna situada al centre de Bratislava, especialitzada en música electrònica, house i techno. El club destaca per la qualitat del seu so, la programació de DJs locals i internacionals i un ambient vibrant que atrau públic jove i amants de la música de ball. És un lloc ideal per gaudir de sessions intenses i una experiència nocturna energètica dins l’escena electrònica de la ciutat.
+  description: WAX2 és una discoteca moderna situada al centre de Bratislava, especialitzada en música electrònica, house i techno. El club destaca per la qualitat del seu so, la programació de DJs locals i internacionals i un ambient vibrant que atrau públic jove i amants de la música de ball. És un lloc ideal per gaudir de sessions intenses i una experiència nocturna energètica dins l’escena electrònica de la ciutat.
+
+- id: aldea-club
+  name: Aldea Club
+  zone: Bratislava
+  category: Discoteca
+  coordinates:
+  - 48.1443091
+  - 17.108421
+  google_maps: https://maps.google.com/?cid=2543229681409792048
+  images:
+  - https://aldeaclub.eu/wp-content/uploads/2024/07/DSC00154-scaled-illu-1024x683.webp
+  short_description: Aldea Club és una discoteca popular de Bratislava coneguda per la seva atmosfera festiva i la seva variada oferta musical, que inclou música comercial, dance i sessions temàtiques. El local disposa d’una pista de ball espaiosa, il·luminació moderna i un ambient animat que atrau tant locals com visitants. És una opció ideal per sortir en grup i gaudir d’una nit intensa de festa.
+  description: Aldea Club és una discoteca popular de Bratislava coneguda per la seva atmosfera festiva i la seva variada oferta musical, que inclou música comercial, dance i sessions temàtiques. El local disposa d’una pista de ball espaiosa, il·luminació moderna i un ambient animat que atrau tant locals com visitants. És una opció ideal per sortir en grup i gaudir d’una nit intensa de festa.
+  notes: []
+
+- id: rados-music-club
+  name: Radosť Music Club
+  zone: Bratislava
+  category: Discoteca
+  coordinates:
+  - 48.1478793
+  - 17.1114561
+  google_maps: https://maps.google.com/?cid=14225433166288846428
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/ad/4d/92/warming-up.jpg?w=1200&h=-1&s=1
+  short_description: Radosť Music Club és un dels locals històrics de l’escena nocturna de Bratislava, conegut per combinar concerts en directe, sessions de DJ i festes alternatives. L’espai té un ambient informal i multicultural que atrau estudiants, artistes i amants de la música independent. És un lloc ideal per descobrir talent local i gaudir d’una experiència musical autèntica i variada.
+  description: Radosť Music Club és un dels locals històrics de l’escena nocturna de Bratislava, conegut per combinar concerts en directe, sessions de DJ i festes alternatives. L’espai té un ambient informal i multicultural que atrau estudiants, artistes i amants de la música independent. És un lloc ideal per descobrir talent local i gaudir d’una experiència musical autèntica i variada.
+  notes: []
+
+- id: subdeck
+  name: SUBDECK
+  zone: Bratislava
+  category: Discoteca
+  coordinates:
+  - 48.1371175
+  - 17.1155794
+  google_maps: https://maps.app.goo.gl/22NEoHqJQ3wzp6Uq8
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2024/10/subdeck2.jpg
+  short_description: SUBDECK és un club nocturn únic situat en un espai industrial a la coberta inferior d’un vaixell al riu Danubi. Destaca pel seu impressionant mur de baixos d’alta qualitat i una programació centrada en música electrònica, techno i drum and bass. El seu entorn original i immersiu el converteix en un dels locals més singulars de Bratislava, ideal per a amants del so potent i experiències nocturnes diferents.
+  description: Subdeck és un local únic equipat amb un MUR DE BAIXOS d'última generació construït per Wolfgang Sauter i la seva empresa Pro Performance. L'espai industrial del local està amagat a la coberta inferior del vaixell nodrissa Brčko, que sura al riu Danubi a prop del Pont Vell de Bratislava.
+
+- id: afko-klub
+  name: Šafko Klub
+  zone: Bratislava
+  category: Discoteca
+  coordinates:
+  - 48.1416924
+  - 17.1154727
+  google_maps: https://maps.google.com/?cid=3063565395720762516
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/13/30/fd/caption.jpg?w=1100&h=800&s=1
+  short_description: Šafko Klub és un club petit però molt popular situat al centre de Bratislava, conegut pel seu ambient acollidor i festiu. El local ofereix música variada que inclou èxits comercials, música electrònica i festes temàtiques. És especialment freqüentat per públic jove i estudiants, i és ideal per a qui busca una experiència nocturna animada en un espai més íntim.
+  description: Šafko Klub és un club petit però molt popular situat al centre de Bratislava, conegut pel seu ambient acollidor i festiu. El local ofereix música variada que inclou èxits comercials, música electrònica i festes temàtiques. És especialment freqüentat per públic jove i estudiants, i és ideal per a qui busca una experiència nocturna animada en un espai més íntim.
+  notes: []

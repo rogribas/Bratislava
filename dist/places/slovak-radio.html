@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Slovak Radio · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://imaginoso.com/files/slovakia/bratislava/2401-slovak-radio-building-south-elevation-2554.jpg" alt="Slovak Radio" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Slovak Radio</h1>
+        <div class="tag">Edifici</div>
+        
+          <p class="lead">L’edifici de la Ràdio Eslovaca és una de les construccions més singulars de Bratislava, coneguda per la seva forma piramidal invertida. Va ser construït entre els anys 1967 i 1983.<br><br>Aquest edifici és un exemple destacat d’arquitectura brutalista i representa el desenvolupament arquitectònic durant l’època comunista.<br><br>A l’interior hi ha una sala de concerts amb una acústica excel·lent, on se celebren actuacions musicals i esdeveniments culturals.<br><br>L’edifici és considerat un símbol arquitectònic modern i un punt d’interès per als amants del disseny.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=3563405190068935117" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1536106, 17.114208], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1536106, 17.114208]).addTo(miniMap).bindPopup("Slovak Radio");
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sad Janka Krála · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Parcs</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://img.freepik.com/fotos-premium/torre-gotica-sad-janka-krala-bratislava-eslovaquia_165988-820.jpg" alt="Sad Janka Krála" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Sad Janka Krála</h1>
+        <div class="tag">Parc</div>
+        
+          <p class="lead">Un dels parcs públics més antics d’Europa Central, situat a la riba dreta del riu Danubi, just davant del centre històric de Bratislava. Fundat al segle XVIII, destaca pel seu disseny paisatgístic d’estil anglès, amb amplis camins arbrats, zones d’ombra i espais ideals per passejar o descansar. El parc rep el nom del poeta romàntic eslovac Janko Kráľ, figura important de la literatura nacional.
+
+A l’interior del parc es poden trobar diversos elements històrics, com la torre gòtica procedent d’una antiga església franciscana, que és un dels seus símbols més reconeguts. També disposa de zones infantils, àrees per fer esport i espais oberts on sovint es fan activitats culturals i recreatives, convertint-lo en un punt molt popular tant per locals com per visitants.
+</p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=17475444072638186812" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.13524, 17.10973], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.13524, 17.10973]).addTo(miniMap).bindPopup("Sad Janka Krála");
+</script>
+
+  </body>
+</html>

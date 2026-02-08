@@ -1,0 +1,96 @@
+
+- id: bratislava-city-museum
+  name: Bratislava City Museum
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.143593
+  - 17.1089954
+  google_maps: https://maps.google.com/?cid=2626505207368355017
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2014/10/Old-Town-Hall.jpg
+  short_description: Horari de 10:00 a 18:00, dilluns tancat. Museu de la ciutat amb exposicions històriques.
+
+- id: museu-nacional-eslovac
+  name: Museu Nacional Eslovac
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.1402062
+  - 17.1130678
+  google_maps: https://maps.google.com/?cid=1515272701593579405
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/d3/84/e0/snm-main-building.jpg?w=600&h=400&s=1
+  short_description: Horari de 9:00 a 17:00, dilluns tancat. Exposicions d’història i cultura eslovaca.
+
+- id: castell-de-devin
+  name: Castell de Devin
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.17389
+  - 16.97811
+  google_maps: https://www.google.com/maps?cid=9244648098414736306
+  images:
+  - https://cdn.getyourguide.com/img/tour/09de6d45a7fea1689d7be00b78eb51b332d8bdb9be1ad12a6010d935cb62bd25.jpg/99.jpg
+  short_description: Horari de 10:00 a 16:00, dilluns tancat. Antiga fortalesa situada a la confluència dels rius Danubi i Morava, el Castell de Devin és un dels símbols històrics més importants d’Eslovàquia. Les seves ruïnes ofereixen vistes panoràmiques espectaculars i exposicions que expliquen la seva funció defensiva, així com el seu paper en la història medieval i moderna de la regió.
+
+- id: museum-of-history-in-bratislava
+  name: Museum of History in Bratislava
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.14196
+  - 17.10007
+  google_maps: https://maps.google.com/?cid=8108656788681112132
+  images:
+  - https://files.slovakia.travel/_processed_/csm_BA%2520hrad_novy_jpg_570e2ae984.jpg
+  short_description: Horari de 10:00 a 18:00, dimarts tancat. Situat dins del Castell de Bratislava, aquest museu mostra l’evolució històrica de la ciutat des dels seus orígens fins a l’època contemporània. Inclou col·leccions d’objectes arqueològics, documents històrics i peces artístiques que expliquen el desenvolupament cultural i polític de la capital eslovaca.
+
+- id: museu-del-transport
+  name: Museu del Transport
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.1563
+  - 17.10602
+  google_maps: https://maps.google.com/?cid=13792969675356176683
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2015/03/resize-of-03-streda-09jul14-ba-240.jpg
+  short_description: Horari de 10:00 a 17:00, dilluns tancat. Museu dedicat a la història del transport a Eslovàquia, amb una col·lecció destacada de vehicles històrics, locomotores, bicicletes i equipament ferroviari. Ofereix una visió completa del desenvolupament dels sistemes de transport i la seva influència en la societat i la indústria del país.
+
+- id: bunker-b-s-8
+  name: Bunker B-S 8
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.10781
+  - 17.08153
+  google_maps: https://maps.google.com/?cid=5554847244657657776
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/fc/db/e7/caption.jpg?w=900&h=500&s=1
+  short_description: Horari de 15:00 a 18:00 tots els dies. Antic búnquer militar que formava part del sistema defensiu construït abans de la Segona Guerra Mundial. Actualment restaurat, permet als visitants explorar les instal·lacions originals, conèixer l’arquitectura militar de l’època i entendre el context històric de les tensions europees del segle XX.
+
+- id: bunker-b-s-4-lany
+  name: Bunker B-S 4 Lány
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.12753
+  - 17.07195
+  google_maps: https://maps.google.com/?cid=7258091789876038620
+  images:
+  - https://www.tracesofwar.com/upload/9331220415115449.jpg
+  short_description: Horari diumenge de 13:00 a 15:00. Fortificació militar històrica que formava part de la línia defensiva txecoslovaca dels anys trenta. El búnquer conserva elements originals i exposicions interpretatives que expliquen la preparació defensiva del país i la vida dels soldats destinats a aquestes estructures.
+
+- id: johan-nepomuk-hummel-museum
+  name: Johan Nepomuk Hummel Museum
+  zone: Bratislava
+  category: Museu
+  coordinates:
+  - 48.14421
+  - 17.11021
+  google_maps: https://www.google.com/maps?cid=4343557402027498519
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/20/e5/77/johann-nepomuk-hummel.jpg?w=900&h=500&s=1
+  short_description: Horari: de 11:00 a 18:00, dilluns tancat. Museu dedicat al compositor i pianista Johann Nepomuk Hummel, que mostra objectes personals, partitures, instruments i informació sobre la seva vida i la seva influència en la música clàssica europea.

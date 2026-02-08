@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Michael’s Gate · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://www.strassederkaiserundkoenige.com/wp-content/uploads/2017/11/500x300_2.-Michaeler-Tor_c-MS-Agency.jpg" alt="Michael’s Gate" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Michael’s Gate</h1>
+        <div class="tag">Porta</div>
+        
+          <p class="lead">La Porta de Sant Miquel és l’única porta medieval que es conserva de les antigues muralles defensives de Bratislava. Construïda al segle XIV, és un dels monuments més antics de la ciutat.<br><br>La torre destaca pel seu estil barroc, afegit durant reformes posteriors, i està coronada amb una estàtua de Sant Miquel derrotant un drac. Aquest element simbolitza la protecció espiritual de la ciutat.<br><br>A l’interior de la torre hi ha un petit museu dedicat a la història de les fortificacions urbanes, on es poden veure armes antigues i informació sobre el sistema defensiu medieval.<br><br>La porta marca també l’inici del centre històric i és un punt molt popular per començar rutes turístiques a peu.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=11536058061704934464" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.14517, 17.10673], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.14517, 17.10673]).addTo(miniMap).bindPopup("Michael’s Gate");
+</script>
+
+  </body>
+</html>

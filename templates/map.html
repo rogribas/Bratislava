@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h1>Mapa interactiu</h1>
+      <p>Explora tots els punts d'interès en una sola vista.</p>
+    </div>
+    <div class="map-layout">
+      <div class="map-panel">
+        <div id="map" class="map"></div>
+      </div>
+      <aside class="map-legend card">
+        <h3>Llegenda</h3>
+        <ul class="legend">
+          <li><span class="dot dot-places"></span> Llocs d'interès</li>
+          <li><span class="dot dot-parks"></span> Parcs</li>
+          <li><span class="dot dot-museums"></span> Museus</li>
+          <li><span class="dot dot-restaurants"></span> Restaurants</li>
+          <li><span class="dot dot-cafes"></span> Cafès</li>
+          <li><span class="dot dot-bars"></span> Bars</li>
+          <li><span class="dot dot-clubs"></span> Discoteques</li>
+        </ul>
+        <p class="muted">Toca els marcadors per veure detalls.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block head_extra %}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.TRAVEL_MAP_DATA = {{ map_data | safe }};
+</script>
+<script src="{{ static_prefix }}js/map.js"></script>
+{% endblock %}

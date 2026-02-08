@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hviezdoslavovo námestie · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hviezdoslavovo_n%C3%A1mestie_%2810267450433%29.jpg/250px-Hviezdoslavovo_n%C3%A1mestie_%2810267450433%29.jpg" alt="Hviezdoslavovo námestie" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Hviezdoslavovo námestie</h1>
+        <div class="tag">Plaça</div>
+        
+          <p class="lead">Hviezdoslavovo námestie és una de les places més animades i elegants del centre de Bratislava. Aquest passeig arbrat connecta el riu Danubi amb el casc antic.<br><br>La plaça està envoltada d’edificis històrics, restaurants i cafeteries amb terrasses que creen un ambient molt agradable.<br><br>El nom està dedicat al poeta eslovac Pavol Országh Hviezdoslav, representat amb una estàtua al centre del passeig.<br><br>Durant l’hivern, la plaça acull un popular mercat de Nadal que atrau visitants i locals.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=3037882704311266589" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1414, 17.10716], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1414, 17.10716]).addTo(miniMap).bindPopup("Hviezdoslavovo námestie");
+</script>
+
+  </body>
+</html>

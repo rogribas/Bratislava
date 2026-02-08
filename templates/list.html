@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+<div class="container">
+<div class="section-header">
+<h1>{{ section_title }}</h1>
+<p>{{ section_intro }}</p>
+<div class="view-toggle">
+<button class="btn-view active" onclick="setViewMode('grid')">RESUM</button>
+<button class="btn-view" onclick="setViewMode('list')">LLISTA DETALLADA</button>
+</div>
+</div>
+<div id="grid-view" class="card-grid">
+      {% for item in items %}
+<article class="card item-card">
+<img src="{{ item.images[0] if item.images else base_prefix + 'static/images/placeholder.svg' }}" alt="{{ item.name }}" />
+<div class="card-body">
+<div class="tag">{{ item.category }}</div>
+<h3>{{ item.name }}</h3>
+<p>{{ item.short_description|replace('\n', '<br>')|safe or item.description|replace('\n', '<br>')|safe }}</p>
+<p class="muted">Zona: {{ item.zone }}</p>
+<a class="link" href="{{ item.google_maps }}">Google Maps</a></br></br>
+<a class="link" href="{{ item.url }}">Veure fitxa</a>
+</div>
+</article>
+      {% endfor %}
+</div>
+<div id="list-view" class="list-view" style="display: none;">
+      {% for item in items %}
+<article class="list-item">
+        {% if item.images %}
+<div class="list-item-image">
+<img src="{{ item.images[0] }}" alt="{{ item.name }}" />
+</div>
+        {% endif %}
+<div class="list-item-content">
+<div class="list-item-header">
+<h3>{{ item.name }}</h3>
+<div class="tag">{{ item.category }}</div>
+</div>
+          {% if item.description %}
+<div class="list-item-description">
+<p>{{ item.description|replace('\n', '<br>')|safe }}</p>
+</div>
+          {% else %}
+<p>{{ item.short_description|replace('\n', '<br>')|safe }}</p>
+          {% endif %}
+<div class="list-item-meta">
+<span class="zone">Zona: {{ item.zone }}</span>
+<a class="link" href="{{ item.google_maps }}">Google Maps</a>
+<a class="link" href="{{ item.url }}">Veure fitxa</a>
+</div>
+</div>
+</article>
+      {% endfor %}
+</div>
+</div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function setViewMode(mode) {
+const gridView = document.getElementById('grid-view');
+const listView = document.getElementById('list-view');
+const gridBtn = document.querySelector('.btn-view[onclick="setViewMode(\'grid\')"]');
+const listBtn = document.querySelector('.btn-view[onclick="setViewMode(\'list\')"]');
+if (mode === 'grid') {
+gridView.style.display = 'block';
+listView.style.display = 'none';
+gridBtn.classList.add('active');
+listBtn.classList.remove('active');
+  } else {
+gridView.style.display = 'none';
+listView.style.display = 'block';
+gridBtn.classList.remove('active');
+listBtn.classList.add('active');
+  }
+}
+// Carregar preferència desada
+document.addEventListener('DOMContentLoaded', function() {
+const savedView = localStorage.getItem('viewMode');
+if (savedView) {
+setViewMode(savedView);
+  }
+});
+</script>
+{% endblock %}

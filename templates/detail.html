@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="{{ back_link }}">← Tornar a {{ back_label }}</a>
+    
+    <div class="hero-image">
+      {% if item.images %}
+        <img src="{{ item.images[0] }}" alt="{{ item.name }}" />
+      {% else %}
+        <img src="{{ base_prefix }}static/images/placeholder.svg" alt="Imatge de mostra" />
+      {% endif %}
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>{{ item.name }}</h1>
+        <div class="tag">{{ item.category }}</div>
+        {% if item.description %}
+          <p class="lead">{{ item.description|replace('\n', '<br>')|safe }}</p>
+        {% else %}
+          <p class="lead">{{ item.short_description }}</p>
+        {% endif %}
+        <ul class="meta">
+          <li><strong>Zona:</strong> {{ item.zone }}</li>
+        </ul>
+        {% if item.curiosities %}
+        <div class="card">
+          <h3>Curiositats</h3>
+          <ul class="list">
+            {% for fact in item.curiosities %}
+            <li>{{ fact }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if item.google_maps %}
+        <div class="card">
+          <p><a class="link" href="{{ item.google_maps }}" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        {% endif %}
+        {% if item.notes %}
+        <div class="card">
+          <h3>Notes</h3>
+          <ul class="list">
+            {% for note in item.notes %}
+            <li>{{ note }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    {% if item.images and item.images|length > 1 %}
+    <div class="gallery">
+      {% for img in item.images[1:] %}
+      <img src="{{ img }}" alt="{{ item.name }} photo {{ loop.index }}" />
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}
+
+{% block head_extra %}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const miniMap = L.map('mini-map').setView({{ item.coordinates }}, 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker({{ item.coordinates }}).addTo(miniMap).bindPopup("{{ item.name | replace('"', '\\"') }}");
+</script>
+{% endblock %}

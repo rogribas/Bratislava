@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Muralles Medievals · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://www.visitbratislava.com/wp-content/uploads/2015/05/Bratislava_hradby-800x600.jpg" alt="Muralles Medievals" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Muralles Medievals</h1>
+        <div class="tag">Muralles</div>
+        
+          <p class="lead">Les muralles medievals de Bratislava són les restes del sistema defensiu que protegia la ciutat durant l’edat mitjana. Originalment, la ciutat estava envoltada per una complexa xarxa de murs, torres i fossats que controlaven l’accés al nucli urbà.<br><br>Actualment, només es conserven alguns trams d’aquestes muralles, però ofereixen una idea clara de la importància estratègica que tenia Bratislava com a centre comercial i polític. Les muralles estaven connectades amb diverses portes d’accés, com la Porta de Sant Miquel.<br><br>Passejar pels trams conservats permet imaginar com era la vida dins d’una ciutat fortificada medieval. A més, els voltants han estat restaurats i adaptats com a espais turístics i culturals.<br><br>Aquestes restes són un testimoni del desenvolupament històric de la ciutat i complementen perfectament la visita al casc antic.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=11517981195408343473" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1422557, 17.1045889], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1422557, 17.1045889]).addTo(miniMap).bindPopup("Muralles Medievals");
+</script>
+
+  </body>
+</html>

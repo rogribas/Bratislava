@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Castell de Bratislava · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://www.visitbratislava.com/wp-content/uploads/2014/10/letecka-vychod-slnka-hrad-800x533.jpg" alt="Castell de Bratislava" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Castell de Bratislava</h1>
+        <div class="tag">Castell</div>
+        
+          <p class="lead">El Castell de Bratislava és un dels símbols més emblemàtics de la ciutat i domina l’horitzó des d’un turó sobre el riu Danubi. La seva silueta blanca amb quatre torres és visible des de molts punts i representa la història i el poder de la regió al llarg dels segles.<br><br>El castell actual és una reconstrucció del segle XX basada en l’estructura barroca que existia abans que un incendi el destruís al segle XIX. Tot i les reformes, conserva l’essència històrica i acull el Museu Nacional Eslovac, on es poden veure exposicions sobre la història del país.<br><br>Des del recinte del castell es poden gaudir d’espectaculars vistes panoràmiques de Bratislava, el Danubi i fins i tot territoris d’Àustria i Hongria en dies clars. Els jardins del voltant són ideals per passejar tranquil·lament.<br><br>El castell també ha tingut una gran importància política, ja que va ser residència reial durant el període en què Bratislava era ciutat de coronació dels reis hongaresos.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=3446134353892385081" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1421086, 17.1002348], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1421086, 17.1002348]).addTo(miniMap).bindPopup("Castell de Bratislava");
+</script>
+
+  </body>
+</html>

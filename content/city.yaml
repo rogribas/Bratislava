@@ -1,0 +1,19 @@
+city:
+  name: Bratislava
+  country: Eslovàquia
+  hero_image: static/images/hero-bratislava.svg
+  overview: |
+    Bratislava és una capital compacta i caminable, perfecta per a una escapada de cap de setmana.
+    Carrers medievals, vistes al Danubi i una vida cultural molt activa.
+  history: |
+    Antiga ciutat de coronació hongaresa, Bratislava combina arquitectura gòtica,
+    barroca i contemporània amb un ritme modern.
+  travel_tips:
+    - El centre històric és ideal per recórrer a peu.
+    - Porta una jaqueta lleugera per les tardes al riu.
+    - Prova els dolços locals com els bratislavské rožky.
+    - Els bitllets de transport públic s'han de validar a l'entrada.
+map:
+  center: [48.1436, 17.1087]
+  zoom: 13
+  map_preview_image: static/images/map-preview.svg

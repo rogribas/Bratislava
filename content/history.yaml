@@ -1,0 +1,52 @@
+history:
+  title: Bratislava
+
+  sections:
+
+    - heading: Introducció
+      image: https://upload.wikimedia.org/wikipedia/commons/0/0c/Bratislava_Castle_and_old_town.jpg
+      body: >
+        Bratislava és la capital i ciutat més gran d’Eslovàquia. Està situada al sud-oest del país,
+        a la vora del riu Danubi i molt a prop de les fronteres amb Àustria i Hongria. Té aproximadament
+        430.000 habitants i és el centre polític, econòmic i cultural del país. La seva ubicació estratègica
+        ha fet que al llarg de la història fos un punt de trobada entre cultures eslaves, germàniques i hongareses.
+
+    - heading: Orígens i edat antiga
+      image: https://upload.wikimedia.org/wikipedia/commons/6/6c/Bratislava_Castle_view.jpg
+      body: >
+        La zona de Bratislava ha estat habitada des de l’antiguitat. Durant l’època romana, el territori formava
+        part de la frontera de l’Imperi Romà. Posteriorment, els pobles eslaus s’hi van establir durant els segles
+        VI i VII. Amb el temps, la ciutat es va convertir en un important centre comercial i defensiu gràcies a
+        la seva posició al costat del Danubi.
+
+    - heading: Període hongarès i importància històrica
+      image: https://upload.wikimedia.org/wikipedia/commons/8/83/St_Martin%27s_Cathedral_Bratislava.jpg
+      body: >
+        Durant segles, Bratislava va formar part del Regne d’Hongria. Entre els segles XVI i XVIII, la ciutat
+        va tenir un paper molt destacat, ja que es va convertir en la capital del regne després de la conquesta
+        otomana de Budapest. En aquesta etapa, molts reis hongaresos van ser coronats a la catedral de Sant Martí,
+        un dels edificis més emblemàtics de la ciutat.
+
+    - heading: Imperi Austrohongarès i desenvolupament modern
+      image: https://upload.wikimedia.org/wikipedia/commons/d/d7/Bratislava_Old_Town.jpg
+      body: >
+        Durant el segle XIX, Bratislava va experimentar un important desenvolupament econòmic i cultural.
+        Formava part de l’Imperi Austrohongarès i era una ciutat amb gran diversitat cultural i lingüística.
+        Després de la Primera Guerra Mundial, va passar a formar part de Txecoslovàquia, fet que va transformar
+        profundament la seva identitat política i social.
+
+    - heading: Segle XX i independència d’Eslovàquia
+      image: https://upload.wikimedia.org/wikipedia/commons/f/fb/Slovak_National_Theatre_new_building.jpg
+      body: >
+        Durant el segle XX, Bratislava va viure diversos canvis polítics, incloent el període comunista després
+        de la Segona Guerra Mundial. Amb la dissolució pacífica de Txecoslovàquia l’any 1993, Bratislava es va
+        convertir en la capital del nou estat independent d’Eslovàquia. Des d’aleshores, la ciutat ha experimentat
+        un fort creixement econòmic i una gran transformació urbana.
+
+    - heading: Bratislava avui
+      image: https://upload.wikimedia.org/wikipedia/commons/5/5a/Bratislava_skyline.jpg
+      body: >
+        Actualment, Bratislava és una ciutat moderna i dinàmica que combina patrimoni històric amb arquitectura
+        contemporània. El seu centre històric conserva carrers medievals, palaus barrocs i monuments destacats com
+        el Castell de Bratislava. La ciutat és també un important centre universitari, cultural i tecnològic, i és
+        coneguda per la seva qualitat de vida i la seva ubicació privilegiada al cor d’Europa.

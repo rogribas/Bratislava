@@ -1,0 +1,196 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h1>Horari del viatge a Bratislava</h1>
+      <p>Un pla dia a dia amb marge per improvisar.</p>
+    </div>
+    <div class="timeline">
+      {% for day in schedule %}
+      <div class="timeline-day">
+        <div class="timeline-header">
+          <h2>{{ day.day }}</h2>
+          <span>{{ day.date }}</span>
+        </div>
+        <div class="timeline-items">
+          {% for item in day["items"] %}
+          <div class="timeline-item">
+            <div class="time">{{ item.time }}</div>
+            <div class="title">{{ item.title }}</div>
+            
+            {% if item.image_url %}
+            <div class="timeline-item-image">
+              <img src="{{ item.image_url }}" alt="{{ item.title }}">
+            </div>
+            {% endif %}
+            
+            {% if item.description %}
+            <div class="desc">{{ item.description }}</div>
+            {% endif %}
+            
+            {% if item.url %}
+            <div class="timeline-item-link">
+              <a href="{{ item.url }}" target="_blank" class="btn-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                Més informació
+              </a>
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .timeline-item {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    display: block !important;
+    grid-template-columns: none !important;
+    gap: 0 !important;
+  }
+  
+  .timeline-item:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+  }
+  
+  .time {
+    font-weight: 700;
+    color: #2563eb;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  .title {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: #1f2937;
+    margin-bottom: 12px;
+  }
+  
+  .desc {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+  
+  .timeline-item-image {
+    margin: 16px 0;
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+  
+  .timeline-item-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .timeline-item-link {
+    margin-top: 12px;
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+  
+  .time,
+  .title {
+    display: block;
+    width: 100%;
+  }
+  
+  .btn-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-link:hover {
+    background: #1d4ed8;
+    transform: translateX(2px);
+  }
+  
+  .btn-link svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .timeline-day {
+    margin-bottom: 40px;
+  }
+  
+  .timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #2563eb;
+  }
+  
+  .timeline-header h2 {
+    margin: 0;
+    color: #1f2937;
+    font-size: 1.8rem;
+  }
+  
+  .timeline-header span {
+    color: #6b7280;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+  .section-header h1 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-bottom: 8px;
+  }
+  
+  .section-header p {
+    color: #6b7280;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .section-header h1 {
+      font-size: 2rem;
+    }
+    
+    .timeline-header h2 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+{% endblock %}

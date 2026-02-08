@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hlavné námestie · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Llocs d'interès</a>
+          <a href="../parks/index.html">Parcs</a>
+          <a href="../museums/index.html">Museus</a>
+          <a href="../restaurants/index.html">Restaurants</a>
+          <a href="../cafes/index.html">Cafès</a>
+          <a href="../bars/index.html">Bars</a>
+          <a href="../clubs/index.html">Discoteques</a>
+          <a href="../food-typical.html">Menjar típic</a>
+          <a href="../phrases.html">Paraules</a>
+          <a href="../history.html">Història</a>
+          <a href="../agenda.html">Agenda</a>
+          <a href="../schedule.html">Horari</a>
+          <a href="../map.html">Mapa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+       
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Tornar a Llocs d&#39;interès</a>
+    
+    <div class="hero-image">
+      
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hlavn%C3%A9_n%C3%A1mestie-The_napoleonic_soldier%2C_Old_Town_Hall_and_Roland_Fountain-Bratislava.JPG/330px-Hlavn%C3%A9_n%C3%A1mestie-The_napoleonic_soldier%2C_Old_Town_Hall_and_Roland_Fountain-Bratislava.JPG" alt="Hlavné námestie" />
+      
+    </div>
+
+    <div class="detail-hero">
+      <div>
+        <h1>Hlavné námestie</h1>
+        <div class="tag">Plaça</div>
+        
+          <p class="lead">La Hlavné námestie, o Plaça Principal, forma el cor històric del nucli antic de Bratislava i ha estat el punt de trobada central de la ciutat durant més de 600 anys. Aquesta pintoresca plaça mostra una fascinant barreja d'estils arquitectònics, amb l'Ajuntament Vell dominant com a peça central. La forma irregular de la plaça i els seus colorits edificis renaixentistes i barrocs creen una atmosfera clarament centreeuropea que ha estat testimoni d'innombrables esdeveniments històrics, mercats i celebracions al llarg de la llarga història de Bratislava.<br><br>Els monuments més significatius de la plaça inclouen la Font de Roland, una rèplica impressionant de la font original de 1572 que simbolitzava els privilegis de la ciutat i els drets de mercat, i el complex de l'Ajuntament Vell amb la seva torre distintiva que ofereix vistes panoràmiques. Potser el més intrigant és l'estàtua del Soldat Napoleònic, un curiós monument que commemora la mirada de l'exèrcit francès sobre Bratislava el 1805 quan Napoleó observava la ciutat des d'aquest mateix lloc. La plaça també compta amb diversos cafès i restaurants les terrasses dels quals s'aboquen sobre els llambordes, creant una atmosfera vibrant, especialment durant els mesos d'estiu.<br><br>Al llarg de la història, Hlavné námestie ha estat l'escenari de proclamacions reials, execucions públiques, processons de coronació, i avui acull mercats de Nadal i festivals culturals. Els edificis que envolten la plaça alberguen importants museus, botigues i la farmàcia més antiga de la ciutat, que data del segle XVI. Caminar per aquests llambordes ofereix als visitants una connexió directa amb el passat medieval de Bratislava mentre gaudeixen de l'energia viva de la cultura i la cuina eslovaques modernes.<br></p>
+        
+        <ul class="meta">
+          <li><strong>Zona:</strong> Bratislava</li>
+        </ul>
+        
+        
+        <div class="card">
+          <p><a class="link" href="https://maps.google.com/?cid=6774207005440058464" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+        </div>
+        
+        
+      </div>
+    </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
+
+    
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Generat amb un generador estàtic en Python.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.143508, 17.1084789], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.143508, 17.1084789]).addTo(miniMap).bindPopup("Hlavné námestie");
+</script>
+
+  </body>
+</html>

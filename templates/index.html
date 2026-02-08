@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero" style="background-image: url('{{ base_prefix }}{{ city.hero_image }}');">
+  <div class="container">
+    <div class="hero-card">
+      <h1>{{ city.name }}, {{ city.country }}</h1>
+      <p>{{ city.overview }}</p>
+      <div class="hero-actions">
+        <a class="btn" href="{{ base_prefix }}map.html">Obre el mapa interactiu</a>
+        <a class="btn ghost" href="{{ base_prefix }}schedule.html">Veure l'horari</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-2">
+    <div>
+      <h2>Història en resum</h2>
+      <p>{{ city.history }}</p>
+    </div>
+    <div class="card">
+      <h3>Consells de viatge</h3>
+      <ul class="list">
+        {% for tip in city.travel_tips %}
+        <li>{{ tip }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section muted">
+  <div class="container grid-2">
+    <div>
+      <h2>Mapa general</h2>
+      <p>Tots els punts d'interès en un sol mapa.</p>
+      <a class="btn" href="{{ base_prefix }}map.html">Explora el mapa</a>
+    </div>
+    <div class="map-preview">
+      <img src="{{ base_prefix }}{{ city.map_preview_image }}" alt="Map preview" />
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-3">
+    <div class="card">
+      <h3>Llocs d'interès</h3>
+      <p>{{ places|length }} punts destacats.</p>
+      <a class="link" href="{{ base_prefix }}places/index.html">Veure llocs</a>
+    </div>
+    <div class="card">
+      <h3>Restaurants</h3>
+      <p>{{ restaurants|length }} opcions per menjar.</p>
+      <a class="link" href="{{ base_prefix }}restaurants/index.html">Veure restaurants</a>
+    </div>
+    <div class="card">
+      <h3>Bars i cerveseries</h3>
+      <p>{{ bars|length }} locals per prendre alguna cosa.</p>
+      <a class="link" href="{{ base_prefix }}bars/index.html">Veure bars</a>
+    </div>
+    <div class="card">
+      <h3>Discoteques</h3>
+      <p>{{ clubs|length }} locals de nit.</p>
+      <a class="link" href="{{ base_prefix }}clubs/index.html">Veure discoteques</a>
+    </div>
+    <div class="card">
+      <h3>Fleques i cafès</h3>
+      <p>{{ cafes|length }} parades de cafè.</p>
+      <a class="link" href="{{ base_prefix }}cafes/index.html">Veure cafès</a>
+    </div>
+    <div class="card">
+      <h3>Museus i galeries</h3>
+      <p>{{ museums|length }} espais culturals.</p>
+      <a class="link" href="{{ base_prefix }}museums/index.html">Veure museus</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

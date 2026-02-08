@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h1>Menjar i beguda típics</h1>
+      <p>Plats i begudes que val la pena tastar a Bratislava.</p>
+    </div>
+    <div class="card-grid">
+      {% for item in typical_food %}
+      <article class="card item-card">
+        <img src="{{ item.image_url }}" alt="{{ item.name }}" />
+        <div class="card-body">
+          <div class="tag">{{ item.type }}</div>
+          <h3>{{ item.name }}</h3>
+          <p>{{ item.description }}</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

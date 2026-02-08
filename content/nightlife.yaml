@@ -1,0 +1,117 @@
+nightlife:
+- id: kc-dunaj
+  name: KC Dunaj
+  category: Rooftop Bar & Live Music
+  zone: City Center
+  description: Rooftop venue with city views and eclectic events.
+  notes:
+  - Check event schedule for live gigs.
+  - Best after sunset.
+  coordinates:
+  - 48.1469
+  - 17.1105
+  images:
+  - static/images/nightlife/dunaj-1.svg
+  - static/images/nightlife/dunaj-2.svg
+- id: spin-bar
+  name: Spin Cocktail Bar
+  category: Cocktails
+  zone: Old Town
+  description: Stylish speakeasy-style bar with inventive cocktails.
+  notes:
+  - Reservations recommended on weekends.
+  - Ask for the seasonal menu.
+  coordinates:
+  - 48.144
+  - 17.109
+  images:
+  - static/images/nightlife/spin-1.svg
+  - static/images/nightlife/spin-2.svg
+- id: aldea-club
+  name: Aldea Club
+  zone: Bratislava
+  category: Club
+  coordinates:
+  - 48.1443091
+  - 17.108421
+  google_maps: https://www.google.com/maps?q=48.1443091,17.108421
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []
+- id: rados-music-club
+  name: Radosť Music Club
+  zone: Bratislava
+  category: Club
+  coordinates:
+  - 48.1478793
+  - 17.1114561
+  google_maps: https://www.google.com/maps?q=48.1478793,17.1114561
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []
+- id: afko-klub
+  name: Šafko Klub
+  zone: Bratislava
+  category: Club
+  coordinates:
+  - 48.1416924
+  - 17.1154727
+  google_maps: https://www.google.com/maps?q=48.1416924,17.1154727
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []
+- id: bukowski-bar
+  name: Bukowski Bar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1444716
+  - 17.1121372
+  google_maps: https://www.google.com/maps?q=48.1444716,17.1121372
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []
+- id: 100-p-v-craft-beer-bar-shop
+  name: 100 pív craft beer bar & shop
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1423466
+  - 17.1126622
+  google_maps: https://www.google.com/maps?q=48.1423466,17.1126622
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []
+- id: 10-prstov-cafe-bar
+  name: 10 prstov Cafe-Bar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1433245
+  - 17.1108218
+  google_maps: https://www.google.com/maps?q=48.1433245,17.1108218
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []
+- id: baudelaire-bar
+  name: Baudelaire Bar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1426488
+  - 17.1079849
+  google_maps: https://www.google.com/maps?q=48.1426488,17.1079849
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []
+- id: boh-ma-bar
+  name: Bohéma Bar
+  zone: Bratislava
+  category: Bar
+  coordinates:
+  - 48.1449591
+  - 17.1143244
+  google_maps: https://www.google.com/maps?q=48.1449591,17.1143244
+  images: []
+  description: Nightlife spot in Bratislava.
+  notes: []

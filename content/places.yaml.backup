@@ -1,0 +1,345 @@
+places:
+- id: apartament
+  name: APARTAMENT
+  zone: Bratislava
+  category: Lloc d'interès
+  coordinates:
+  - 48.1435541
+  - 17.1113781
+  google_maps: https://maps.google.com/?cid=13303517579197767983
+  images:
+  - https://cf.bstatic.com/xdata/images/hotel/max1024x768/524449684.jpg?k=db9060384f9511300e14a6e3e9c2c54b2b00fd41a98718ad6d8c5d0c7fb646c5&o=
+  short_description: Apartament o allotjament al centre.
+  description: |
+    Apartament cèntric ideal per explorar Bratislava a peu, situat en el cor del barri vell. Aquest allotjament ofereix accés fàcil a les principals atraccions turístiques com el Castell de Bratislava, la Plaça Principal i el Pont SNP amb les seves vistes panoràmiques. La ubicació estratègica permet als visitants gaudir de l'atmosfera històrica de la ciutat while having modern amenities and a comfortable base for exploring Slovak capital.
+
+    The apartment provides easy walking distance to Bratislava's main attractions including Old Town Hall, St. Martin's Cathedral, Michael's Gate, and numerous restaurants and cafés serving traditional Slovak cuisine. Guests can enjoy morning coffee in nearby Hviezdoslavovo Square before heading to castle for panoramic Danube views. Evening strolls along the Danube promenade are just steps away, perfect for experiencing Bratislava's blend of medieval charm and modern riverside development.
+
+    This accommodation choice offers authentic local experience, allowing visitors to immerse themselves in Bratislava's daily rhythm while having comfortable retreat after days spent exploring castle hill, wandering medieval streets, or enjoying boat trips on the Danube. The central location provides excellent public transportation connections for day trips to Devin Castle or other nearby attractions.
+- id: castell-de-bratislava
+  name: Castell de Bratislava
+  zone: Bratislava
+  category: Castell
+  coordinates:
+  - 48.1421086
+  - 17.1002348
+  google_maps: https://maps.google.com/?cid=3446134353892385081
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2014/10/letecka-vychod-slnka-hrad-800x533.jpg
+  short_description: Castell emblemàtic amb vistes al Danubi.
+  description: |
+    Perched 85 meters above the Danube River, Bratislava Castle dominates Slovakia's capital with its distinctive white walls and four corner towers. More than an architectural landmark, this hilltop fortress chronicles Central European history from Celtic settlements through medieval kingdoms, Habsburg rule, and modern Slovak independence. The castle hill has hosted settlements for over 4,500 years, evolving from 9th-century Great Moravian fortifications through Gothic palace constructions in the 15th century, Renaissance rebuilding in the 16th century, to baroque magnificence under Maria Theresa in the 18th century.
+
+    The castle served as the main residence of Hungarian kings during the Ottoman occupation of Hungary, making Bratislava (then Pressburg) the capital of the Kingdom of Hungary from 1536 to 1783. During this golden age, the castle witnessed the coronation of 19 kings and queens in the city below. The complex included extensive fortifications, residential buildings, and treasury facilities. After a devastating fire in 1811 left it in ruins, the castle was meticulously reconstructed in the 1950s during the communist era, becoming home to the Slovak National Museum.
+
+    Today, visitors can explore the castle's historical exhibitions, enjoy panoramic views of Bratislava and the Danube, and walk through the beautifully restored courtyards. The castle's crown-like silhouette against the sky has become the symbol of Slovakia's capital, offering a tangible connection to centuries of royal power and cultural significance that shaped Central European history. The surrounding castle district provides a perfect starting point for exploring Bratislava's medieval Old Town and understanding the city's strategic importance throughout history.
+- id: marketplace-mileti-ova
+  name: Marketplace Miletičova
+  zone: Bratislava
+  category: Mercat
+  coordinates:
+  - 48.1532845
+  - 17.1372092
+  google_maps: https://maps.google.com/?cid=8486620953839809362
+  images:
+  - https://image-worker.mindtrip.ai/image-resize/format=webp,w=720/https:/images.mindtrip.ai/attractions/f362/0e70/548f/d97d/edc8/5b79/a098/e8a6
+  short_description: Mercat local amb productes frescos.
+  description: |
+    Marketplace Miletičova és el mercat més gran i popular de Bratislava, on els locals hi compren productes frescos directament dels agricultors de la regió. Situat a la zona de Ružinov, aquest mercat ofereix una experiència autèntica de la vida quotidiana eslovaca, lluny de fruites i verdures de temporada, formatges artesanals, mel, llet, i productes lactis de granges locals.
+
+Els visitants poden explorar els diferents punts de venta per descobrir ingredients tradicionals de la cuina eslovaca, com formatges fumades, remolatxes de paprika, i diverses varietats de col dolça artesanal. És un lloc ideal per comprar records locals per portar a casa o simplement per gaudir de l'ambient animat i els colors i olors del mercat tradicional.
+
+Aquest mercat reflecte la importància dels productes locals en la cultura eslovaca i ofereix una oportunitat única d'interactuar amb els comerciants locals i conèixer més sobre les tradicions gastronòmiques del país. És recomanable visitar-ho al matí per veure' millor selecció de productes frescos i experimentar l'energia vibrant d'aquest centre de comerç popular.
+- id: ufo-tower-bridge-snp
+  name: UFO Tower / Bridge SNP
+  zone: Bratislava
+  category: Pont
+  coordinates:
+  - 48.1367327
+  - 17.1045998
+  google_maps: https://maps.google.com/?cid=16603980719519786138
+  images:
+  - https://laughingsquid.com/wp-content/uploads/2025/05/UFO-Bridge-Bratislava.jpg
+  short_description: Pont i mirador amb vistes panoràmiques.
+- id: slovak-radio
+  name: Slovak Radio
+  zone: Bratislava
+  category: Edifici
+  coordinates:
+  - 48.1536106
+  - 17.114208
+  google_maps: https://maps.google.com/?cid=3563405190068935117
+  images:
+  - https://imaginoso.com/files/slovakia/bratislava/2401-slovak-radio-building-south-elevation-2554.jpg
+  short_description: Edifici icònic de la ràdio eslovaca.
+- id: the-blue-church-church-of-st-elizabeth
+  name: The Blue Church - Church of St. Elizabeth
+  zone: Bratislava
+  category: Església
+  coordinates:
+  - 48.1434028
+  - 17.1169342
+  google_maps: https://maps.google.com/?cid=5617757060704747062
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1NZJ0Hyia3F3_2PPzUqXNEUV4dM5LCDm9tg&s
+  short_description: Església modernista d’un blau característic.
+- id: palau-grassalkovich
+  name: Palau Grassalkovich
+  zone: Bratislava
+  category: Lloc d'interès
+  coordinates:
+  - 48.1491959
+  - 17.1077447
+  google_maps: https://maps.google.com/?cid=12924979267777792506
+  images:
+  - https://img.freepik.com/fotos-premium/palacio-grassalkovich-es-palacio-bratislava-residencia-presidente-eslovaquia-palacio-grassalkovich-esta-situado-plaza-hodzovo-namestie_78361-9922.jpg
+  short_description: Palau presidencial amb jardins.
+- id: hlavn-n-mestie
+  name: Hlavné námestie
+  zone: Bratislava
+  category: Plaça
+  coordinates:
+  - 48.143508
+  - 17.1084789
+  google_maps: https://maps.google.com/?cid=6774207005440058464
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hlavn%C3%A9_n%C3%A1mestie-The_napoleonic_soldier%2C_Old_Town_Hall_and_Roland_Fountain-Bratislava.JPG/330px-Hlavn%C3%A9_n%C3%A1mestie-The_napoleonic_soldier%2C_Old_Town_Hall_and_Roland_Fountain-Bratislava.JPG
+  short_description: Plaça principal del centre històric.
+  description: |
+    Hlavné námestie, or Main Square, forms the historic heart of Bratislava's Old Town and has been the city's central gathering point for over 600 years. This picturesque square showcases a fascinating blend of architectural styles, with the dominant Old Town Hall serving as its centerpiece. The square's irregular shape and colorful Renaissance and Baroque buildings create a distinctly Central European atmosphere that has witnessed countless historic events, markets, and celebrations throughout Bratislava's long history.
+
+    The square's most significant landmarks include the Roland Fountain, an impressive replica of the original 1572 fountain that symbolized city privileges and market rights, and the Old Town Hall complex with its distinctive tower offering panoramic views. Perhaps most intriguing is the Napoleonic Soldier statue, a curious monument commemorating the French army's gaze upon Bratislava in 1805 when Napoleon observed the city from this very spot. The square also features various cafés and restaurants whose outdoor terraces spill onto the cobblestones, creating a vibrant atmosphere especially during summer months.
+
+    Throughout history, Hlavné námestie has been the stage for royal proclamations, public executions, coronation processions, and today hosts Christmas markets and cultural festivals. The square's surrounding buildings house important museums, shops, and the city's oldest pharmacy, dating back to the 16th century. Walking across these cobblestones offers visitors a direct connection to Bratislava's medieval past while enjoying the lively energy of modern Slovak culture and cuisine.
+- id: old-town-hall
+  name: Old Town Hall
+  zone: Bratislava
+  category: Edifici històric
+  coordinates:
+  - 48.143791
+  - 17.1086765
+  google_maps: https://maps.google.com/?cid=980569153589430502
+  images:
+  - https://www.welcometobratislava.eu/wp-content/uploads/2018/10/DSC02378.jpg
+  short_description: Ajuntament històric amb torre.
+- id: umil-statue
+  name: Čumil Statue
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1428677
+  - 17.1088427
+  google_maps: https://maps.google.com/?cid=2438025716339334836
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0juK7ERMkQoVB0rpRXirMp97hCCKgFbtlWQ&s
+  short_description: Estàtua popular al carrer, ideal per fotos.
+- id: aupark-bratislava
+  name: Aupark Bratislava
+  zone: Bratislava
+  category: Centre comercial
+  coordinates:
+  - 48.132927
+  - 17.1080538
+  google_maps: https://maps.google.com/?cid=933455088108524397
+  images:
+  - https://hbreavis.com/wp-content/uploads/bis-images/866/Aupark_Shopping_Center_Bratislava_3-480x260-f50_50.jpg
+  short_description: Centre comercial al costat del riu.
+- id: palis-dy-street
+  name: Palisády Street
+  zone: Bratislava
+  category: Carrer
+  coordinates:
+  - 48.14609656666667
+  - 17.0999814
+  google_maps: https://maps.app.goo.gl/7jL993rm6aEMua5i7
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/f/fc/Bratislava_-_Palis%C3%A1dy_-_View_WNW.jpg
+  short_description: Passeig agradable amb vistes i arquitectura.
+- id: eurovea
+  name: Eurovea
+  zone: Bratislava
+  category: Centre comercial
+  coordinates:
+  - 48.1403215
+  - 17.121313
+  google_maps: https://maps.google.com/?cid=13538759457401221910
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/9/98/Bratislava_Eurovea_MYSELF_2014_-_panoramio.jpg
+  short_description: Zona comercial i de passeig al riu.
+- id: est-tua-do-soldado-de-napole-o
+  name: Estátua do Soldado de Napoleão
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1434903
+  - 17.1080414
+  google_maps: https://maps.google.com/?cid=13798330557380396907
+  images:
+  - https://media.istockphoto.com/id/689173002/es/foto/estatua-de-soldado-del-ej%C3%A9rcito-de-napole%C3%B3n-en-bratislava.jpg?s=170667a&w=0&k=20&c=1P79dhxSrtnL7hyXQPx4LZsMJHM4uc8gQKsS5nZj7wM=
+  short_description: Escultura simbòlica a l’Old Town.
+- id: sch-ne-n-ci
+  name: Schöne Náci
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1431387
+  - 17.1083992
+  google_maps: https://maps.google.com/?cid=2218971717633399370
+  images:
+  - https://img.atlasobscura.com/jtYTxpRgvHk5PdoYgNqaWF-CdjmYLBlSNRU3JKmhOlk/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy81NjAw/ZmQyNS1kOTMzLTQx/YzgtYWUwYy0wMjFh/ZmRjNDU2NDY2MjBi/OGQ1MjQ0NDNmZTgy/NmZfU04uanBn.jpg
+  short_description: Estàtua clàssica al centre.
+- id: maximilian-s-fountain
+  name: Maximilian's fountain
+  zone: Bratislava
+  category: Estàtua
+  coordinates:
+  - 48.1433702
+  - 17.1081634
+  google_maps: https://maps.google.com/?cid=15576979326475654533
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/48/4b/3c/maximilian-s-fountain.jpg?w=900&h=500&s=1
+  short_description: Font històrica a la plaça principal.
+- id: medieval-city-walls
+  name: Medieval City Walls
+  zone: Bratislava
+  category: Muralles
+  coordinates:
+  - 48.1422557
+  - 17.1045889
+  google_maps: https://maps.google.com/?cid=11517981195408343473
+  images:
+  - https://www.visitbratislava.com/wp-content/uploads/2015/05/Bratislava_hradby-800x600.jpg
+  short_description: Restes de les muralles medievals.
+- id: hlavn-stanica-estaci-trens
+  name: Hlavná stanica (Estació trens)
+  zone: Bratislava
+  category: Estació
+  coordinates:
+  - 48.1581078
+  - 17.1071739
+  google_maps: https://maps.google.com/?cid=9801502718226731331
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bratislava_hlavn%C3%A1_stanica_September_2019.jpg/1280px-Bratislava_hlavn%C3%A1_stanica_September_2019.jpg
+  short_description: Estació central de trens.
+- id: church-of-the-annunciation
+  name: Church of the Annunciation
+  zone: Bratislava
+  category: Església
+  coordinates:
+  - 48.1447256
+  - 17.1080929
+  google_maps: https://maps.google.com/?cid=5048457912903480951
+  images:
+  - https://www.vypadni.sk/Img/9c6fb9e0-0e07-4760-9ce5-caf022fbe73d/800/600
+  short_description: Església barroca discreta.
+- id: michael-s-gate
+  name: Michael’s Gate
+  zone: Bratislava
+  category: Porta
+  coordinates:
+  - 48.14517
+  - 17.10673
+  google_maps: https://maps.google.com/?cid=11536058061704934464
+  images:
+  - https://www.strassederkaiserundkoenige.com/wp-content/uploads/2017/11/500x300_2.-Michaeler-Tor_c-MS-Agency.jpg
+  short_description: Porta medieval, entrada principal de la ciutat antiga.
+  description: |
+    Michael's Gate stands as the only surviving medieval gate from Bratislava's original fortifications, marking the northern entrance to the historic Old Town. Built around 1300, this iconic gate was one of four entrances that controlled access to the medieval city, alongside the now-demolished Laurinc Gate (eastern), Vydrica Gate (western), and Fishermen's Gate (southern). The gate's impressive 51-meter-high tower has become one of Bratislava's most recognizable landmarks, crowned with its distinctive green copper roof and statue of Saint Michael slaying a dragon.
+
+    The tower's architecture evolved through multiple phases, starting as a three-storey structure and being reinforced and elevated between the 16th and 18th centuries. During the 1750s, the gate received its baroque exterior makeover that visitors see today, including the addition of the iconic statue of Saint Michael. The gate complex included sophisticated defensive features like a barbican, a bridge over the fortification moat, and a curved street between the main tower and outer gate. These elements created a formidable obstacle for potential invaders while controlling movement in and out of the city.
+
+    Today, visitors can climb to the top of Michael's Tower for breathtaking panoramic views across Bratislava's red rooftops and to the castle hill. Inside, the gate houses the Museum of Weapons, showcasing medieval armor and weaponry that once defended the city. Walking through Michael's Gate is literally stepping back in time, following the same path that merchants, nobles, and kings traveled when Bratislava served as the capital of the Kingdom of Hungary. The gate represents not just architectural beauty, but the resilience and strategic importance that defined Bratislava's medieval history.
+- id: pam-tn-kame-karlovi-krylovi
+  name: Pamätný kameň Karlovi Krylovi
+  zone: Bratislava
+  category: Monument
+  coordinates:
+  - 48.15252
+  - 17.11094
+  google_maps: https://maps.google.com/?cid=6318595054543976759
+  images:
+  - https://umeniemesta.sk/storage/media/1224/PNoSSPXxTQQJclB0lab4M08MnnXpkimUHxXAEa09tZY.jpeg
+  short_description: Monument commemoratiu dedicat a Karel Kryl.
+- id: st-martin-s-cathedral
+  name: St. Martin's Cathedral
+  zone: Bratislava
+  category: Església
+  coordinates:
+  - 48.14202
+  - 17.10476
+  google_maps: https://maps.google.com/?cid=14402334000592657117
+  images:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kk0BAEJc9Q55ObpzHE24gKt3zUpHJOa1RQ&s
+  short_description: Catedral gòtica de coronacions.
+  description: |
+    St. Martin's Cathedral stands as one of Slovakia's most significant historical and religious buildings, serving as the coronation church for Hungarian kings during Bratislava's golden age as capital of the Kingdom of Hungary. This magnificent three-nave Gothic cathedral was built on the site of an earlier Romanesque church dedicated to the Holy Savior, which dated back to 1221. The present Gothic structure, consecrated in 1452, became integral part of city's fortifications, with its tower serving as a defensive bastion protecting Bratislava's northern approaches.
+
+    Between 1563 and 1830, this cathedral witnessed the coronation of 19 kings and queens of Hungary, including the famous Habsburg queen Maria Theresa. These ceremonies transformed Bratislava into one of Europe's most important coronation cities, with elaborate processions and celebrations that would last for days. The cathedral's interior, measuring 69.37 meters long, 22.85 meters wide, and 16.02 meters high, features grand architectural details including a preserved tympanum relief of the Holy Trinity and four historic chapels dedicated to various saints and nobility.
+
+    Perhaps the cathedral's most striking feature is its 85-meter-high tower, crowned with a gilded replica of St. Stephen's crown weighing 150 kilograms. This golden crown has become the symbol of Bratislava's coronation legacy and can be seen from many points across the city. Today, visitors can explore the cathedral's rich history through its museum collection, attend services, and imagine the elaborate coronation ceremonies that once filled these sacred halls with the pageantry of European royalty. The cathedral remains an active place of worship while serving as a tangible connection to centuries of Hungarian and Slovak royal history.
+- id: slovak-national-theatre
+  name: Slovak National Theatre
+  zone: Bratislava
+  category: Teatre
+  coordinates:
+  - 48.14131
+  - 17.12294
+  google_maps: https://maps.google.com/?cid=2345407077150516991
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bratyslawa_Teatr_Narodowy.jpg/250px-Bratyslawa_Teatr_Narodowy.jpg
+  short_description: Teatre nacional amb programació cultural.
+- id: primacial-palace
+  name: Primacial Palace
+  zone: Bratislava
+  category: Palau
+  coordinates:
+  - 48.14391
+  - 17.10965
+  google_maps: https://maps.google.com/?cid=2553111428876251535
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/11/85/91/primacialny-palac.jpg?w=900&h=500&s=1
+  short_description: Palau neoclàssic amb sales històriques.
+- id: hviezdoslavovo-n-mestie
+  name: Hviezdoslavovo námestie
+  zone: Bratislava
+  category: Plaça
+  coordinates:
+  - 48.1414
+  - 17.10716
+  google_maps: https://maps.google.com/?cid=3037882704311266589
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hviezdoslavovo_n%C3%A1mestie_%2810267450433%29.jpg/250px-Hviezdoslavovo_n%C3%A1mestie_%2810267450433%29.jpg
+  short_description: Passeig cèntric amb terrasses.
+- id: slav-n
+  name: Slavín
+  zone: Bratislava
+  category: Monument
+  coordinates:
+  - 48.15393
+  - 17.09959
+  google_maps: https://maps.google.com/?cid=17607437690345434542
+  images:
+  - https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/d8/57/03/caption.jpg?w=900&h=-1&s=1
+  short_description: Memorial i mirador de la ciutat.
+- id: konzervat-rium-bratislava
+  name: Konzervatórium Bratislava
+  zone: Bratislava
+  category: Edifici
+  coordinates:
+  - 48.14966
+  - 17.10476
+  google_maps: https://maps.google.com/?cid=2190692196158989039
+  images:
+  - https://yt3.googleusercontent.com/ytc/AIdro_mrFtREr3cxAguOy_EDn7Nu1y0IbuS-c5edSOtauzGRcQ=s900-c-k-c0x00ffffff-no-rj
+  short_description: Conservatori amb arquitectura destacada.
+- id: slovak-philharmonic
+  name: Slovak Philharmonic
+  zone: Bratislava
+  category: Sala de concerts
+  coordinates:
+  - 48.14086
+  - 17.11011
+  google_maps: https://maps.google.com/?cid=7956581065064509015
+  images:
+  - https://upload.wikimedia.org/wikipedia/commons/7/74/Slovak_Philharmonic.png
+  short_description: Sala de concerts amb prestigi.

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KC Dunaj · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Places</a>
+          <a href="../food/index.html">Food & Drink</a>
+          <a href="../nightlife/index.html">Nightlife</a>
+          <a href="../schedule.html">Schedule</a>
+          <a href="../map.html">Map</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Back to Nightlife</a>
+    <div class="detail-hero">
+      <div>
+        <h1>KC Dunaj</h1>
+        <div class="tag">Rooftop Bar &amp; Live Music</div>
+        <p class="lead">Rooftop venue with city views and eclectic events.</p>
+        <ul class="meta">
+          <li><strong>Zone:</strong> City Center</li>
+          
+        </ul>
+        
+        
+        
+        <div class="card">
+          <h3>Notes</h3>
+          <ul class="list">
+            
+            <li>Check event schedule for live gigs.</li>
+            
+            <li>Best after sunset.</li>
+            
+          </ul>
+        </div>
+        
+      </div>
+      <div class="mini-map" id="mini-map"></div>
+    </div>
+
+    <div class="gallery">
+      
+        
+        <img src="../static/images/nightlife/dunaj-1.svg" alt="KC Dunaj photo 1" />
+        
+        <img src="../static/images/nightlife/dunaj-2.svg" alt="KC Dunaj photo 2" />
+        
+      
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Built with a simple Python static site generator.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1469, 17.1105], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1469, 17.1105]).addTo(miniMap).bindPopup("KC Dunaj");
+</script>
+
+  </body>
+</html>

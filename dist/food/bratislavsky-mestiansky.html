@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bratislavský Meštiansky Pivovar · Bratislava</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="../index.html">Bratislava</a>
+        <nav class="nav">
+          <a href="../places/index.html">Places</a>
+          <a href="../food/index.html">Food & Drink</a>
+          <a href="../nightlife/index.html">Nightlife</a>
+          <a href="../schedule.html">Schedule</a>
+          <a href="../map.html">Map</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      
+<section class="section">
+  <div class="container">
+    <a class="back-link" href="index.html">← Back to Food &amp; Drink</a>
+    <div class="detail-hero">
+      <div>
+        <h1>Bratislavský Meštiansky Pivovar</h1>
+        <div class="tag">Brewery &amp; Slovak Food</div>
+        <p class="lead">Traditional dishes and house-brewed beers.</p>
+        <ul class="meta">
+          <li><strong>Zone:</strong> Old Town</li>
+          
+        </ul>
+        
+        
+        
+        <div class="card">
+          <h3>Notes</h3>
+          <ul class="list">
+            
+            <li>Order bryndzové halušky.</li>
+            
+            <li>Reservation recommended after 6 PM.</li>
+            
+          </ul>
+        </div>
+        
+      </div>
+      <div class="mini-map" id="mini-map"></div>
+    </div>
+
+    <div class="gallery">
+      
+        
+        <img src="../static/images/food/pivovar-1.svg" alt="Bratislavský Meštiansky Pivovar photo 1" />
+        
+        <img src="../static/images/food/pivovar-2.svg" alt="Bratislavský Meštiansky Pivovar photo 2" />
+        
+      
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Built with a simple Python static site generator.</p>
+      </div>
+    </footer>
+
+    
+<script>
+  const miniMap = L.map('mini-map').setView([48.1442, 17.1061], 15);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(miniMap);
+  L.marker([48.1442, 17.1061]).addTo(miniMap).bindPopup("Bratislavský Meštiansky Pivovar");
+</script>
+
+  </body>
+</html>
