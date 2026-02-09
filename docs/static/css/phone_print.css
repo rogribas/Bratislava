@@ -1,0 +1,396 @@
+@media print {
+  @page {
+    size: auto;
+    margin: 0;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  :root {
+    --bg: #f7f4ef;
+    --ink: #2b2a28;
+    --muted: #6b6760;
+    --accent: #2f6f6d;
+    --accent-2: #c7682f;
+    --card: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', system-ui, sans-serif;
+    color: var(--ink);
+    background: white;
+    line-height: 1.5;
+    font-size: 20pt;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .pdf-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .pdf-section {
+    margin-bottom: 2.5rem;
+    page-break-inside: avoid;
+  }
+
+  .pdf-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28pt;
+    color: var(--accent);
+    margin: 0 0 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .section-intro {
+    color: var(--muted);
+    margin-bottom: 1.2rem;
+    font-size: 16pt;
+  }
+
+  .item-card {
+    background: var(--card);
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    page-break-inside: avoid;
+  }
+
+  .item-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .number-badge {
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  .item-card h3 {
+    font-size: 22pt;
+    margin: 0;
+    color: var(--ink);
+  }
+
+  .item-card .tag {
+    display: inline-block;
+    background: rgba(47, 111, 109, 0.12);
+    color: var(--accent);
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+
+  .item-card .description {
+    font-size: 18pt;
+    color: var(--ink);
+    margin: 0.6rem 0;
+    line-height: 1.5;
+  }
+
+  .item-card .meta {
+    font-size: 14pt;
+    color: var(--muted);
+    margin: 0.6rem 0 0;
+  }
+
+  .item-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .day-section {
+    margin-bottom: 2.5rem;
+    page-break-inside: avoid;
+  }
+
+  .day-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1rem;
+    background: var(--accent);
+    color: white;
+    border-radius: 8px;
+  }
+
+  .day-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22pt;
+    margin: 0;
+  }
+
+  .event-count {
+    background: rgba(255,255,255,0.2);
+    padding: 0.4rem 1rem;
+    border-radius: 16px;
+    font-size: 1.2rem;
+  }
+
+  .event-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+
+  .event-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+  }
+
+  .event-card h3 {
+    font-size: 20pt;
+    margin: 0 0 0.6rem;
+    color: var(--ink);
+  }
+
+  .event-details {
+    font-size: 14pt;
+    color: var(--ink);
+    margin-bottom: 0.6rem;
+  }
+
+  .event-details strong {
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .event-description {
+    font-size: 16pt;
+    color: var(--ink);
+    margin: 0.6rem 0;
+  }
+
+  .food-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+
+  .food-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+  }
+
+  .food-card h3 {
+    font-size: 20pt;
+    margin: 0 0 0.4rem;
+    color: var(--accent-2);
+  }
+
+  .food-card .category {
+    font-size: 12pt;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .food-card .description {
+    font-size: 16pt;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .info-section {
+    margin-bottom: 3rem;
+    page-break-inside: avoid;
+    padding: 1.5rem;
+  }
+
+  .info-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+    color: var(--accent);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .info-section p {
+    text-align: justify;
+    margin: 0 0 0.8rem;
+    font-size: 18pt;
+    line-height: 1.5;
+  }
+
+  .info-section img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 0 1rem 0;
+  }
+
+  .phrases-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    font-size: 16pt;
+    padding: 1.5rem;
+  }
+
+  .phrases-table th,
+  .phrases-table td {
+    text-align: left;
+    padding: 0.8rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .phrases-table th {
+    background: rgba(47, 111, 109, 0.1);
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .schedule-day {
+    margin-bottom: 2.5rem;
+    page-break-inside: avoid;
+  }
+
+  .schedule-day h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+    color: var(--accent);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--accent);
+  }
+
+  .schedule-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .schedule-time {
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 14pt;
+    min-width: 70px;
+  }
+
+  .schedule-content {
+    font-size: 16pt;
+  }
+
+  .history-header {
+    margin-bottom: 3rem;
+    page-break-inside: avoid;
+    padding: 1.5rem;
+  }
+
+  .history-hero-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+  }
+
+  .history-flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    background: rgba(47, 111, 109, 0.08);
+    border-radius: 10px;
+  }
+
+  .flag-item {
+    text-align: center;
+  }
+
+  .flag-img {
+    height: 45px;
+    width: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .flag-img.coat-arms {
+    height: 55px;
+    background: white;
+    padding: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .flag-label {
+    display: block;
+    margin-top: 4px;
+    font-size: 9pt;
+    color: var(--muted);
+  }
+
+  .history-section .pdf-section-title {
+    text-align: center;
+    font-size: 30pt;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+    margin: 0.6rem 0;
+  }
+
+  li {
+    margin-bottom: 0.6rem;
+    font-size: 14pt;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}

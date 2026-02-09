@@ -297,6 +297,67 @@ a:hover {
   gap: 1.5rem;
 }
 
+/* Number Badge Styles */
+.card-image-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-image-with-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.list-item-image-with-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+.list-item-image-with-badge img {
+  flex: 1;
+}
+
+.number-badge {
+  width: 40px;
+  height: 40px;
+  background: var(--accent);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+/* Adjust image sizing when badge is present */
+.card-image-container img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px 18px 0 0;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.hero-image-with-badge img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  flex: 1;
+}
+
 .item-card img {
   border-radius: 18px 18px 0 0;
   height: 180px;

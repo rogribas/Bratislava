@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fuga · Bratislava</title>
+    <title>Johan Nepomuk Hummel Museum · Bratislava</title>
     <link rel="stylesheet" href="../static/css/style.css" />
     <link rel="preconnect" href="https://unpkg.com" />
     
@@ -34,36 +34,41 @@
     </header>
 
     <main>
-      
+       
 <section class="section">
   <div class="container">
-    <a class="back-link" href="index.html">← Tornar a Bars i cerveseries</a>
+    <a class="back-link" href="index.html">← Tornar a Museus i galeries</a>
     
     <div class="hero-image">
       
-        <img src="https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-6/488258941_1085197516981148_4883317451983072487_n.jpg?_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=cc71e4&amp;_nc_ohc=D5UzFEOGWwYQ7kNvwE6AlwU&amp;_nc_oc=AdnhggrVNKQCVcvmvCf0XVVfTxAAoWHth8X0F87fVNEEkSmAcB04fTzvcaPhnkX63mc&amp;_nc_zt=23&amp;_nc_ht=scontent-mad2-1.xx&amp;_nc_gid=eii-ZaMFqOrw0QObFzvHlg&amp;oh=00_AfsAU_vwoQRES7p1HbgoMiS9vwixU9_AihIUKU1qMSYErA&amp;oe=698CFC11" alt="Fuga" />
+        
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/20/e5/77/johann-nepomuk-hummel.jpg?w=900&amp;h=500&amp;s=1" alt="Johan Nepomuk Hummel Museum" />
+        
       
     </div>
 
     <div class="detail-hero">
       <div>
-        <h1>Fuga</h1>
-        <div class="tag">Bar</div>
-        <p class="lead">Lloc destacat a Bratislava.</p>
+        <h1>Johan Nepomuk Hummel Museum</h1>
+        <div class="tag">Museu</div>
+        
+          <p class="lead">Horari de 11:00 a 18:00, dilluns tancat. Museu dedicat al compositor i pianista Johann Nepomuk Hummel, que mostra objectes personals, partitures, instruments i informació sobre la seva vida i la seva influència en la música clàssica europea.</p>
+        
         <ul class="meta">
           <li><strong>Zona:</strong> Bratislava</li>
         </ul>
         
         
         <div class="card">
-          <h3>Google Maps</h3>
-          <p><a class="link" href="https://maps.google.com/?cid=12368098413002976574" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
+          <p><a class="link" href="https://www.google.com/maps?cid=4343557402027498519" target="_blank" rel="noopener">Obrir a Google Maps</a></p>
         </div>
         
         
       </div>
-      <div class="mini-map" id="mini-map"></div>
     </div>
+    </br>
+    </br>
+    <div class="mini-map" id="mini-map"></div>
 
     
   </div>
@@ -79,12 +84,12 @@
 
     
 <script>
-  const miniMap = L.map('mini-map').setView([48.1444756, 17.1121013], 15);
+  const miniMap = L.map('mini-map').setView([48.14421, 17.11021], 15);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(miniMap);
-  L.marker([48.1444756, 17.1121013]).addTo(miniMap).bindPopup("Fuga");
+  L.marker([48.14421, 17.11021]).addTo(miniMap).bindPopup("Johan Nepomuk Hummel Museum");
 </script>
 
   </body>

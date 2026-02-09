@@ -1,0 +1,523 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 1.5cm 1.2cm;
+    @top-center {
+      content: string(pagetitle);
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 9pt;
+      color: #6b6760;
+    }
+    @bottom-center {
+      content: counter(page) " / " counter(pages);
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 9pt;
+      color: #6b6760;
+    }
+  }
+
+  :root {
+    --bg: #f7f4ef;
+    --ink: #2b2a28;
+    --muted: #6b6760;
+    --accent: #2f6f6d;
+    --accent-2: #c7682f;
+    --card: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', system-ui, sans-serif;
+    color: var(--ink);
+    background: white;
+    line-height: 1.5;
+    font-size: 10pt;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .pdf-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .pdf-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .pdf-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+    color: var(--accent);
+    margin: 0 0 0.3rem;
+  }
+
+  .pdf-header .subtitle {
+    font-size: 11pt;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .pdf-section {
+    margin-bottom: 1.5rem;
+    page-break-inside: avoid;
+  }
+
+  .pdf-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16pt;
+    color: var(--accent);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .pdf-section-intro {
+    color: var(--muted);
+    margin-bottom: 1rem;
+    font-size: 9.5pt;
+  }
+
+  .item-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .item-card {
+    background: var(--card);
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 0.8rem;
+    page-break-inside: avoid;
+  }
+
+  .item-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .number-badge {
+    width: 28px;
+    height: 28px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  .item-card h3 {
+    font-size: 11pt;
+    margin: 0;
+    color: var(--ink);
+  }
+
+  .item-card .tag {
+    display: inline-block;
+    background: rgba(47, 111, 109, 0.12);
+    color: var(--accent);
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+
+  .item-card .description {
+    font-size: 7.5pt;
+    color: var(--ink);
+    margin: 0.4rem 0;
+    line-height: 1.4;
+  }
+
+  .item-card .meta {
+    font-size: 8pt;
+    color: var(--muted);
+    margin: 0.3rem 0 0;
+  }
+
+  .item-card .google-maps {
+    font-size: 8pt;
+    color: var(--accent);
+  }
+
+  .item-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+
+  .places-section .item-card img {
+    height: 130px;
+  }
+
+  .item-row {
+    display: flex;
+    gap: 0.8rem;
+    padding: 0.8rem;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    margin-bottom: 0.8rem;
+    page-break-inside: avoid;
+  }
+
+  .item-row img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  .item-row-content {
+    flex: 1;
+  }
+
+  .item-row h3 {
+    font-size: 11pt;
+    margin: 0 0 0.3rem;
+  }
+
+  .item-row .tag {
+    display: inline-block;
+    background: rgba(47, 111, 109, 0.12);
+    color: var(--accent);
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+
+  .item-row .description {
+    font-size: 8.5pt;
+    color: var(--ink);
+    margin: 0.3rem 0;
+    line-height: 1.4;
+  }
+
+  .item-row .meta {
+    font-size: 8pt;
+    color: var(--muted);
+    margin: 0.3rem 0 0;
+  }
+
+  .item-row .google-maps {
+    font-size: 8pt;
+    color: var(--accent);
+  }
+
+  .day-section {
+    margin-bottom: 1.5rem;
+    page-break-inside: avoid;
+  }
+
+  .day-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  .day-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  .event-count {
+    background: var(--accent);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .event-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 0.8rem;
+    page-break-inside: avoid;
+  }
+
+  .event-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+
+  .event-card h3 {
+    font-size: 10pt;
+    margin: 0 0 0.4rem;
+    color: var(--ink);
+  }
+
+  .event-details {
+    font-size: 8pt;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+  }
+
+  .event-details strong {
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .event-description {
+    font-size: 7pt;
+    color: var(--ink);
+    line-height: 1.4;
+    margin: 0.4rem 0;
+  }
+
+  .event-location {
+    font-size: 8pt;
+    color: var(--muted);
+  }
+
+  .info-section {
+    margin-bottom: 1.5rem;
+    page-break-inside: avoid;
+  }
+
+  .info-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+    color: var(--accent);
+    margin: 0 0 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .info-section img,
+  .info-img {
+    max-width: 35%;
+    float: right;
+    margin: 0 0 0.8rem 0.8rem;
+    border-radius: 6px;
+  }
+
+  .info-img-full {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 0 0 1rem 0;
+  }
+
+  .history-header {
+    margin-bottom: 1.5rem;
+    page-break-inside: avoid;
+  }
+
+  .history-hero-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+
+  .history-flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.8rem;
+    background: rgba(47, 111, 109, 0.08);
+    border-radius: 6px;
+  }
+
+  .flag-item {
+    text-align: center;
+  }
+
+  .flag-img {
+    height: 40px;
+    width: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .flag-img.coat-arms {
+    height: 50px;
+    background: white;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .flag-label {
+    display: block;
+    margin-top: 4px;
+    font-size: 7pt;
+    color: var(--muted);
+  }
+
+  .history-section .pdf-section-title {
+    text-align: center;
+    font-size: 20pt;
+  }
+
+  .info-section p {
+    text-align: justify;
+    margin: 0 0 0.8rem;
+    line-height: 1.4;
+    font-size: 9pt;
+  }
+
+  .phrases-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+
+  .phrases-table th,
+  .phrases-table td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 9pt;
+  }
+
+  .phrases-table th {
+    background: rgba(47, 111, 109, 0.1);
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .food-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .food-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 0.8rem;
+    page-break-inside: avoid;
+  }
+
+  .food-card img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.4rem;
+  }
+
+  .food-card h3 {
+    font-size: 10pt;
+    margin: 0 0 0.2rem;
+    color: var(--accent-2);
+  }
+
+  .food-card .category {
+    font-size: 7pt;
+    color: var(--muted);
+    margin-bottom: 0.3rem;
+  }
+
+  .food-card .description {
+    font-size: 7pt;
+    color: var(--ink);
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .schedule-day {
+    margin-bottom: 1.5rem;
+    page-break-inside: avoid;
+  }
+
+  .schedule-day h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+    color: var(--accent);
+    margin: 0 0 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .schedule-item {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 0.6rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .schedule-time {
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 9pt;
+  }
+
+  .schedule-content {
+    font-size: 9pt;
+  }
+
+  .pdf-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+    font-size: 8pt;
+    color: var(--muted);
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
