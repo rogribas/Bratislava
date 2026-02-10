@@ -174,6 +174,30 @@
             <div class="event-description">
               <p>Stop after working on a drink, beer or lime tree and tune in for a weekend with a two-hour set from Beyuza. Fridays belong to the comfort – forget about the work worries and let yourself be carried away by the summer vib! 🍷Bar open: 16:00</p>
             </div>
+
+            <button onclick="playMusic()">▶ Escoltar música</button>
+
+            <div id="player" style="display:none;">
+            <iframe 
+                id="ytplayer"
+                width="300"
+                height="170"
+                src=""
+                frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+            </div>
+
+            <script>
+            function playMusic() {
+            document.getElementById("player").style.display = "block";
+
+            document.getElementById("ytplayer").src =
+                "https://www.youtube.com/embed/2kL4lmnfTJQ?autoplay=1&start=2";
+            }
+            </script>
             
             
             
