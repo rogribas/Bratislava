@@ -1499,4 +1499,18 @@
 
     
   </body>
+
+  <script>
+function playMusic(btn, videoId, startTime) {
+    // Cerquem el contenidor de vídeo que hi ha just després dels botons d'aquest esdeveniment
+    const container = btn.parentElement.querySelector('.player-container');
+    const iframe = container.querySelector('iframe');
+    
+    // Fem visible el contenidor
+    container.style.display = "block";
+    
+    // Assignem la URL d'embed amb l'ID i el temps d'inici rebuts
+    iframe.src = "https://www.youtube.com/embed/" + videoId + "?autoplay=1&start=" + startTime;
+}
+</script>
 </html>
